@@ -35,3 +35,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Preserved solved Jenny example; keys Yoshi yo-yo, Max ball, Lilly skates, with Whose/this/are inputs.
 - Browser verified correct answers, wrong choice feedback, reset preserving example and previous/next navigation.
 
+
+## Workbook p53 cars (2026-10-18)
+- Added supplied car image unchanged; restored six-car phonics colouring exercise after hard/soft C table.
+- Keys: car/crown/cat blue, cereal/city green, bicycle red. Colour stays inside car silhouette; check/reset included.
+- Browser tested 6/6 correct, 5/6 after wrong colour, reset and previous/next links; improved mask threshold for faint source outlines.
+
