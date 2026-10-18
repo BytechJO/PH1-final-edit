@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='blue_text'>1</span> Look and say.",
     "subTitleTextRight": "",
     "subTitleIcons": ["../images/pages/sb-icons/conv_3_icon.png"],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/missing/Look and say.mp3",
     "slides": [
         {
             "layout": "stairs_slide",

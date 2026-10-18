@@ -313,6 +313,10 @@ function buildReadingHTML(aObj) {
         showRuleSlide()
         showExampleSlide()
         showSentenceImg()
+        $('.mainContent .audioIcon').filter(function () {
+            var src = $(this).attr('data-audio');
+            return !src || src === 'undefined';
+        }).removeClass('audioIcon audioTile').removeAttr('data-audio');
         setLoadedStatus(getCurrFileOrDirectory('file'));
 
     }

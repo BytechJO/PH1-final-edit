@@ -81,6 +81,10 @@ function buildMcqTickBody(aObj) {
                     }
 					htmlStmt += xx + '</div>';
                     htmlStmt +=(((tempObj).options)[y]).image? `<img class="images-border" src="${(((tempObj).options)[y]).image}" alt="image"/>` : '';
+                    var optionAudio = tempObj.options[y].audio;
+                    if (optionAudio && optionAudio !== 'no') {
+                        htmlStmt += '<button type="button" class="audioTile toy-audio" aria-label="Listen to toy ' + (y + 1) + '" data-audio="' + optionAudio + '" style="font-size:20px;border-radius:8px;padding:4px 12px">&#128266;</button>';
+                    }
                     htmlStmt += '<div class="tickBox">';
                     htmlStmt += '<span class="selectTick" style="display: none;"><i class="fa fa-check" aria-hidden="true"></i></span>';
                     htmlStmt += '</div>'; // end - tickBox

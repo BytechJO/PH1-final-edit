@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_without_background_image slide_text ",
             "group_styles": "",
-            "audio": ["../audios/missing/Describe a family member’s job.mp3", ""],
+            "audio": ["../audios/missing/Describe a family member’s job.mp3", "../audios/missing/My mum works in a hospital.mp3"],
             "word": [
               
               

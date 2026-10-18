@@ -30,7 +30,8 @@ MCQ.prototype = {
                 var picks = e.querySelectorAll('.pick'); 
                 
                 for (var i = 0; i < picks.length; i++) {
-                    picks[i].addEventListener("click", function(){  
+                    picks[i].addEventListener("click", function(event){
+                        if (event.target.closest(".toy-audio")) return;
                         var target = $(e.target);                         
                         // if(!(target.hasClass('audioIcon'))){
                             var _thisId = $(this).attr('id');

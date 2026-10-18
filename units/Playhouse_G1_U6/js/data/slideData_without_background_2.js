@@ -35,7 +35,7 @@ var reading_data = {
             "images":["../images/pages/activities/3-img-1.png","../images/pages/activities/3-img-2.png","../images/pages/activities/3-img-3.png"],
             "parentClassName": "full_grid_with_background_color",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": [],
             "word": [
                 
                 "I can run. I can run.",

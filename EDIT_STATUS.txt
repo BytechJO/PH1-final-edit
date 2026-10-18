@@ -1,7 +1,7 @@
 PH1 final edit - implementation status (18 October 2026)
 
-Original GitHub repository has not been pushed or modified. Work is local in this separate clone.
-No image or video assets have been modified. Image/video work is pending discussion with the user.
+Work is in the separate public repository BytechJO/PH1-final-edit, deployed on Vercel at https://ph1-final-edit.vercel.app/. The original upstream has not been modified.
+User-approved dog replacement and twoKids-01.svg have been published. Kids colouring clips strokes to the supplied SVG silhouettes. No video replacements made.
 
 QA:
 PH-01: Changed Unit 15 SB activity to circle THE and underline the noun, preserving all four original sentences. Verified against source p114. All four correct responses pass in browser.
@@ -33,11 +33,26 @@ Validation:
 - Added audio path existence audit passed.
 - These checks are not a full audio listening/content review or full 15-unit regression.
 
-Still pending:
-- All missing/wrong images and activities requiring those images; no image edits made.
-- Missing conversation/story videos and Unit 6 duplicate-video verification; no video edits made.
-- Remaining audio whose intended content or mapping needs verification (including unnamed ElevenLabs recording, Unit 6/7 titles, Unit 8 toy options, partial Unit 11/15 recordings).
-- Source folder GRADE 1 contains Student Book unit PDFs pp10-115 in unit ranges; workbook/review source pages are not included.
+Latest completion pass (18 October 2026):
+- U7: reused the supplied Look and say instruction from U6; corrected its prompt link.
+- U8: linked Roller skate, Bicycle and Teddy bear. Added separate speaker buttons; playing an option does not select an answer.
+- U12: linked supplied My mum works in a hospital recording to the matching illustrated example.
+- U6 song: removed unrelated legacy per-line audio links; the supplied complete song remains available through the radio player. No invented per-line recordings.
+- U9 SB69: compact table layout now shows all seven rows at 1280x720; all five character and five linked food images load. Fixed row closing markup and prevented label cells from accepting answers.
 
-Next concrete image proposal:
-Unit 4 slide_11.html, last phonics card: current 36-card-4.png shows a frog on a box while text says dog on a box. Compare to source p36 before preparing an exact replacement. Discuss with user before changing or replacing the image.
+Latest verification:
+- Checked 386 page references in activity lists (Student Book, Workbook and Review): no missing HTML targets. This is a path audit, not 386 browser interaction tests.
+- Checked 53 supplied-audio references in data files: no missing files.
+- All five newly linked MP3s return HTTP 200 with audio/mpeg and nonempty content locally.
+- U8 browser: all three speaker buttons exercised without console errors or selecting an answer; wrong answer rejected, reset works, correct answer accepted.
+- U9 browser: five character/five food images loaded; complete table fits; existing answer key accepted; next-page navigation opens Class writing. The listening-derived answer key still needs semantic audio review.
+- U15 Review browser: strokes crossing both children are clipped out of the background; Undo works; all three completed sentences pass. Clear was tested in the previous colouring pass.
+- U1 contractions and U15 THE/noun tests passed in the earlier QA pass (not rerun in this pass).
+- Full listening/content verification of every recording and exhaustive interaction testing of all 15 units have NOT been completed.
+
+Still pending / source-dependent:
+- U9 SB69: the source PDF also shows fizzy-drinks and popcorn pictures, but their image fields are empty. No matching standalone assets identified in the inspected U9 image folders. Needs supplied/approved images before marking the table fully matched to the book. Current text rows remain usable.
+- Partial U11/U15 recordings: supplied missing-parts folders contain only Read.mp3, with no identified complete replacement for the reported listening activities. Existing tracks remain linked; completeness unverified.
+- U2 p17 poem, remaining title/prompt placeholders and unnamed ElevenLabs recording require content identification; filenames alone are insufficient.
+- Missing conversation/story videos and PH-21 U6 duplicate video: pending correct media and user discussion.
+- Other missing images/activities listed in the source review remain outside this completion pass. Full Student Book and Workbook PDFs are now available in G1 Pdf.

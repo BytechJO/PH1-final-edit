@@ -74,7 +74,7 @@ function buildMcqTickBody(aObj) {
                         htmlStmt += '<tr>'
                         opened = true;
                     }
-                    htmlStmt += ' <td id="pick_' + (x + 1) + '_' + (y + 1) + '" class="tick_fieldgap-20 pick"> ';
+                    htmlStmt += ' <td id="pick_' + (x + 1) + '_' + (y + 1) + '" class="tick_fieldgap-20 ' + (tempObj.options[y].tick_box === "no" ? "pick table-label" : "pick") + '"> ';
 					
                     // htmlStmt += '<div class="q_num_space">';
 					// if (tempObj.numbering == 'alphabet') {
@@ -98,7 +98,7 @@ function buildMcqTickBody(aObj) {
                     }
                     
                     htmlStmt += '</td>'; // end - pick  
-                    if (y % aObj.numInRow == 0 && !opened){
+                    if ((y + 1) % aObj.numInRow == 0){
                         htmlStmt += '</tr>'
                         opened = false;
                     }                  

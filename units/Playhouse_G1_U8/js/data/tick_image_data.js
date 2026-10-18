@@ -49,19 +49,19 @@ var mcq_tick_data = {
                 {
                     "text"           : "",
                     "image"         : "../images/pages/activities/2-img-1.png",
-                    "audio"         : "no",
+                    "audio"         : "../audios/missing/Roller skate.mp3",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
                     "text"          : "",
                     "image"         : "../images/pages/activities/2-img-2.png",
-                    "audio"         : "no",
+                    "audio"         : "../audios/missing/Bicycle.mp3",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
                     "text"          : "",
                     "image"         : "../images/pages/activities/2-img-3.png",
-                    "audio"         : "no",
+                    "audio"         : "../audios/missing/Teddy bear.mp3",
                     "audioenable"   : "default", // correct (or) default
                 },
                                           

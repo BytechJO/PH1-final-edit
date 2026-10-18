@@ -147,3 +147,23 @@ td {
 .textOnImage-container .orange_text {
   font-weight: bolder;
 }
+
+/* Keep all seven food rows visible on classroom laptop screens. */
+.tick_group { width: 100%; max-width: 850px; }
+.tick_group table { width: 100%; }
+.tick_group td { height: 42px; min-width: 52px !important; }
+.tick_group .images-border { width: 38px; height: 38px; object-fit: contain; }
+.tick_group td:first-child { padding: 1px 10px !important; height: 42px !important; }
+.tick_group .tickContent { height: auto; font-size: 20px; }
+.tick_group .tickBox { height: 32px; min-width: 32px; margin: 2px auto; }
+
+.act_head_group { margin-bottom: -30px !important; }
+.tick_group .que, .tick_group .tick_fields { width: 100%; }
+.tick_group table { display: table !important; }
+@media (max-width: 600px) {
+  .tick_group .tickContent { font-size: 16px; }
+  .tick_group td { min-width: 34px !important; }
+  .tick_group td:first-child { padding: 1px 3px !important; }
+}
+
+.table-label { background-color: #e9eaea; pointer-events: none; }
