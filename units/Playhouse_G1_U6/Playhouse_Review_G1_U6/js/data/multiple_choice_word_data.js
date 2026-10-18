@@ -36,7 +36,8 @@ var mcq_data = {
     "numbering"             : "number",
     "numberstartfrom"       :  1, 
     "numberofcolumns"       :  1,
-    "image"                 :"",
+    "image"                 :"../images/pages/activities/sbp52/img01.png",
+    "imageposition": "front",
     "questions"             : [
         {
             "question"              : "1",
