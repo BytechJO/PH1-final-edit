@@ -177,3 +177,5 @@
 .proper-nouns-picture .group_elm{flex-wrap:nowrap!important;gap:24px;width:100%;margin-bottom:20px!important}.proper-nouns-picture .img_space{flex:0 0 230px;width:230px}.proper-nouns-picture .img_space img{width:100%;max-height:320px;object-fit:contain}.proper-nouns-picture .tick_group{flex:1;min-width:0}@media(max-width:700px){.proper-nouns-picture .group_elm{flex-wrap:wrap!important}.proper-nouns-picture .img_space{flex-basis:100%;width:100%}.proper-nouns-picture .img_space img{height:170px}}
 
 .proper-nouns-picture .options{width:84vw;max-width:1180px}.proper-nouns-picture .img_space{height:300px}.proper-nouns-picture .img_space img{border-radius:0}.proper-nouns-picture .q_text{font-size:24px}.proper-nouns-picture .pick{padding:0 4px;margin:2px}
+
+.proper-nouns-picture .img_space{order:2}.proper-nouns-picture .tick_group{order:1}
