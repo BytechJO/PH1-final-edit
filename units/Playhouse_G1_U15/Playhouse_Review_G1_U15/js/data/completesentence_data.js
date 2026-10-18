@@ -2,7 +2,7 @@ var completesentence_data = {
     "mainTitleAudio"        : "../audios/under.mp3",
     "subTitleTextLeft"      : '<span class="blue_text">2</span> Complete the sentences. Then colour the picture.',
     "subTitleAudio"         : "../audios/under.mp3",
-    "image"                 : "../images/pages/activities/2_colour_img.png",
+    "image"                 : "../images/pages/activities/twoKids-01.svg",
     "questions"             :
      [
         {
