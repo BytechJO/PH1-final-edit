@@ -41,7 +41,7 @@ function buildMatchColorBody(aObj) {
         jQuery.each(aObj.words, function (i, w) {
             htmlStmt += '<div class="match_word_item" data-id="' + w.id + '">';
             htmlStmt += '<div class="audioIcon off contant" data-audio="' + w.audio + '">';
-            htmlStmt += '<span class="match_word_text">' + w.text + '</span>';
+            htmlStmt += '<span class="match_word_text" data-svg="'+w.svg+'" aria-label="'+w.text+'">' + w.text + '</span>';
             htmlStmt += '</div>';
             htmlStmt += '<div class="match_dot word_dot" data-id="' + w.id + '"></div>';
             htmlStmt += '</div>';
@@ -53,7 +53,7 @@ function buildMatchColorBody(aObj) {
         jQuery.each(aObj.images, function (i, img) {
             htmlStmt += '<div class="match_image_item" data-id="' + img.id + '" data-matches="' + img.matchesWordId + '">';
             htmlStmt += '<div class="match_dot image_dot" data-id="' + img.id + '"></div>';
-            htmlStmt += '<img class="colourable_img" src="' + img.image + '">';
+            htmlStmt += '<canvas class="colourable_img" width="900" height="900" data-src="'+img.image+'" aria-label="Colour picture '+(i+1)+'"></canvas>';
             htmlStmt += '<div class="icon_wrap">';
             htmlStmt += '<div class="tick"><img src="../images/icons/check_btn.png"></div>';
             htmlStmt += '<div class="cross"><img src="../images/icons/cross_btn.png"></div>';
@@ -70,6 +70,7 @@ function buildMatchColorBody(aObj) {
     console.log('htmlStmt >> matchcolor Built');
     $(".activity_area").append(htmlStmt);
 
+    setupMatchColourAssets();
     setLoadedStatus(getCurrFileOrDirectory('file'));
 }
 
@@ -104,23 +105,11 @@ function MatchColor(aContainer, aData) {
             self.removeConnectionByImage(imgId);
 
             self.connections[self.selectedWordId] = imgId;
+            $('.checkBtn, .resetBtn').removeClass('disabled');
             self.drawAllLines();
 
             $('.word_dot').removeClass('selected');
             self.selectedWordId = null;
-        });
-
-        // الدوس على الصورة نفسها يلوّنها (toggle)
-        self.container.off('click.colourImg').on('click.colourImg', '.match_image_item', function (e) {
-            if ($(e.target).hasClass('image_dot')) return; // لا تلوّن إذا دس عالنقطة
-            var $img = $(this).find('.colourable_img');
-            if ($img.hasClass('coloured')) {
-                $img.removeClass('coloured').css('filter', 'none');
-            } else {
-                var colour = self.colourPalette[self.colourIndex % self.colourPalette.length];
-                self.colourIndex++;
-                $img.addClass('coloured').css('filter', self.colourToFilter(colour));
-            }
         });
 
         // ------------------------------------------------------------------ //
@@ -174,6 +163,8 @@ function MatchColor(aContainer, aData) {
                 'color': chosenColour,
                 '-webkit-text-stroke': '0px'
             });
+            $word.find('path').css('fill',chosenColour);
+            $('.resetBtn').removeClass('disabled');
             $palette.remove();
         });
     };
@@ -270,8 +261,19 @@ function MatchColor(aContainer, aData) {
         $('.colourable_img').removeClass('coloured').css('filter', 'none');
         // شيل أي تلوين يدوي عالكلمات وأي باليت مفتوحة
         $('.match_word_text').css({ 'color': '', '-webkit-text-stroke': '' });
+        $('.match_word_text path').css('fill','none');
+        document.querySelectorAll('.colourable_img').forEach(function(c){if(c.resetPaint)c.resetPaint();});
         $('.word_colour_palette').remove();
         $('.checkBtn').removeClass('disabled');
         $('.resetBtn').addClass('disabled');
     };
+}
+function setupMatchColourAssets(){
+ document.querySelectorAll('.match_word_text').forEach(function(el){fetch(el.dataset.svg).then(function(r){return r.text();}).then(function(text){var doc=new DOMParser().parseFromString(text,'image/svg+xml'),svg=document.createElementNS('http://www.w3.org/2000/svg','svg');doc.querySelectorAll('path').forEach(function(p){var path=document.createElementNS(svg.namespaceURI,'path');path.setAttribute('d',p.getAttribute('d'));path.setAttribute('fill','none');path.setAttribute('stroke','#231f20');path.setAttribute('stroke-width','2');svg.appendChild(path);});el.textContent='';el.appendChild(svg);var b=svg.getBBox();svg.setAttribute('viewBox',[b.x-3,b.y-3,b.width+6,b.height+6].join(' '));}).catch(function(){});});
+ var colours=['#2587df','#ef4444','#ffe45c','#4db45d','#ff9f43'],selected=colours[0];
+ var bar=document.createElement('div');bar.className='picture-palette';bar.setAttribute('aria-label','Picture colours');colours.forEach(function(c,i){var b=document.createElement('button');b.type='button';b.style.background=c;b.setAttribute('aria-label',['Blue','Red','Yellow','Green','Orange'][i]);b.setAttribute('aria-pressed',String(i===0));b.onclick=function(){selected=c;bar.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});};bar.appendChild(b);});document.querySelector('.matchcolor_stage').before(bar);
+ document.querySelectorAll('canvas.colourable_img').forEach(function(canvas){var ctx=canvas.getContext('2d',{willReadFrequently:true}),source,paint,history=[];var img=new Image();img.onload=function(){canvas.width=900;canvas.height=Math.round(900*img.naturalHeight/img.naturalWidth);ctx.fillStyle='white';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);source=ctx.getImageData(0,0,canvas.width,canvas.height);paint=ctx.getImageData(0,0,canvas.width,canvas.height);};img.src=canvas.dataset.src;
+ var undo=document.createElement('button');undo.type='button';undo.className='paint-undo';undo.textContent='Undo';undo.disabled=true;canvas.after(undo);undo.onclick=function(){if(history.length){paint.data.set(history.pop());ctx.putImageData(paint,0,0);}undo.disabled=!history.length;};canvas.resetPaint=function(){if(source){paint.data.set(source.data);ctx.putImageData(paint,0,0);history=[];undo.disabled=true;}};
+ canvas.addEventListener('pointerdown',function(e){if(!source)return;var w=canvas.width,h=canvas.height,b=canvas.getBoundingClientRect(),scale=Math.min(b.width/w,b.height/h),x=Math.floor((e.clientX-b.left-(b.width-w*scale)/2)/scale),y=Math.floor((e.clientY-b.top-(b.height-h*scale)/2)/scale);if(x<0||y<0||x>=w||y>=h)return;function white(i){var p=i*4;return source.data[p]>235&&source.data[p+1]>235&&source.data[p+2]>235;}var start=y*w+x;if(!white(start))return;var seen=new Uint8Array(w*h),queue=[start],area=[];seen[start]=1;for(var head=0;head<queue.length;head++){var i=queue[head],px=i%w,py=Math.floor(i/w);if(px===0||py===0||px===w-1||py===h-1)return;area.push(i);[i-1,i+1,i-w,i+w].forEach(function(n){if(!seen[n]&&white(n)){seen[n]=1;queue.push(n);}});}history.push(new Uint8ClampedArray(paint.data));if(history.length>10)history.shift();var rgb=[1,3,5].map(function(n){return parseInt(selected.slice(n,n+2),16);});area.forEach(function(i){paint.data.set([rgb[0],rgb[1],rgb[2],255],i*4);});ctx.putImageData(paint,0,0);undo.disabled=false;$('.resetBtn').removeClass('disabled');});
+ });
 }

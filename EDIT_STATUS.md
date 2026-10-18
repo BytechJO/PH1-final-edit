@@ -14,3 +14,11 @@ Added four supplied room illustrations and coloured Yes/No speech-bubble selecti
 ## Student Book 42 / Workbook 28 illustrations
 Linked all seven supplied images to existing adjective/noun exercises. Adjusted responsive layout to show all sentences and pictures at 1280x720. Corrected dad to noun in Workbook answer key. Verified all images loaded, 4/4 and 3/3 correct feedback, reset, and rejection of wrong marking.
 
+
+## Student Book p45 — Match and colour (2026-10-18)
+- Added the eight supplied SBP45 picture/outlined-word assets unchanged.
+- Matched book order and answers: ride/bicycle, swim/duck, read/girl, skateboard/boy.
+- Added bounded region colouring, picture Undo, outlined-word colours, and full reset.
+- Responsive four-column layout; instruction audio retained; empty stereo hidden.
+- Browser verified four correct matches, incorrect-match feedback, colouring on all four images, Undo and reset. JS syntax and diff checks passed.
+

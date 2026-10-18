@@ -1,6 +1,6 @@
 var stereo_data = {
   audio: "",
-  exist: true,
+  exist: false,
   bgColor_rgb: "rgb(53, 130, 180)",
   type: "text",
   playListData: [{ audiourl: "" }, { url: "" }, { url: "" }, { url: "" }],
@@ -17,32 +17,32 @@ var matchcolor_data = {
   subTitleAudio: "../audios/new/p45match.mp3",
 
   words: [
-    { id: "w1", text: "ride", audio: "../audios/under.mp3" },
-    { id: "w2", text: "swim", audio: "../audios/under.mp3" },
-    { id: "w3", text: "read", audio: "../audios/under.mp3" },
-    { id: "w4", text: "skateboard", audio: "../audios/under.mp3" },
+    { id: "w1", text: "ride", svg: "../images/pages/activities/sbp45/ride.svg", audio: "../audios/under.mp3" },
+    { id: "w2", text: "swim", svg: "../images/pages/activities/sbp45/swim.svg", audio: "../audios/under.mp3" },
+    { id: "w3", text: "read", svg: "../images/pages/activities/sbp45/read.svg", audio: "../audios/under.mp3" },
+    { id: "w4", text: "skateboard", svg: "../images/pages/activities/sbp45/skateboard.svg", audio: "../audios/under.mp3" },
   ],
 
   images: [
     {
       id: "i1",
-      image: "../images/pages/activities/10.png",
+      image: "../images/pages/activities/sbp45/img01.png",
       matchesWordId: "w3",
     },
     {
       id: "i2",
-      image: "../images/pages/activities/9.png",
+      image: "../images/pages/activities/sbp45/img02.png",
       matchesWordId: "w2",
     },
     {
       id: "i3",
-      image: "../images/pages/activities/8.png",
-      matchesWordId: "w4",
+      image: "../images/pages/activities/sbp45/img03.png",
+      matchesWordId: "w1",
     },
     {
       id: "i4",
-      image: "../images/pages/activities/2.png",
-      matchesWordId: "w1",
+      image: "../images/pages/activities/sbp45/img04.png",
+      matchesWordId: "w4",
     },
   ],
 };
