@@ -28,7 +28,7 @@ var fillin_data = {
   "subTitleTextLeft"      : "<span class='blue_text'>5</span> Now, write about you.",
   "subTitleTextRight"     : "",
   "subTitleIcons"         : ["../images/pages/sb-icons/gram_2_icon.png"],
-  "subTitleAudio"         : "../audios/under.mp3",
+  "subTitleAudio"         : "../audios/missing/Now - write about you.mp3",
   "ontextaudioplay"       : '',
   "onimgaudioplay"        : '',
   "numbering"             : "alphabet", // "alphabet" (or) "number"
@@ -41,7 +41,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "[_]is my birthday. I want to[_]cake. I want my[_]",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/is my birthday. I want to.mp3", "../audios/missing/cake. I want my.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",
@@ -56,7 +56,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "on the cake. My[_][_]is[_].",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/on the cake. My.mp3", "../audios/missing/is.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",
@@ -71,7 +71,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "My[_]name is[_].",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/My.mp3", "../audios/missing/name is.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",
@@ -86,7 +86,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "My[_][_]is[_].",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/My.mp3", "../audios/missing/is.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",

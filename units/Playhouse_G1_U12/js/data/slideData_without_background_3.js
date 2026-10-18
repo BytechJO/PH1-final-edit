@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='blue_text'>4</span> Play the game.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/missing/Play the game.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_without_background_image slide_text ",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/missing/Describe a family member’s job.mp3", ""],
             "word": [
               
               

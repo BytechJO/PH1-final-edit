@@ -29,7 +29,7 @@ function buildCircleUnderlineWordBody(aObj) {
 				htmlStmt += "<div class='page_sub_title d-flex'>";
 					htmlStmt += "<p> " + aObj.subTitleTextLeft + " </p>";
 					
-					htmlStmt += "<p> " + aObj.subTitleTextRight + " </p>";
+					htmlStmt += "<p> " + (aObj.subTitleTextRight || "") + " </p>";
 				htmlStmt += "</div>";
 				htmlStmt += '</div>';
 			htmlStmt += '</div>';

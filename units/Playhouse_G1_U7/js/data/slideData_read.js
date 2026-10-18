@@ -33,8 +33,8 @@ var reading_data = {
             "parent_class_name":"stairs",
             "wordsBackground": "",
             "words": [ ],
-            "audios": ["../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3","../audios/in.mp3"],
-            "sentences": ["10<sup>th</sup> &emsp; tenth","9<sup>th</sup> &emsp; ninth","8<sup>th</sup> &emsp; eighth","7<sup>th</sup> &emsp; senventh","6<sup>th</sup> &emsp; sixth","5<sup>th</sup> &emsp; fifth","4<sup>th</sup> &emsp; fourth","3<sup>th</sup> &emsp; third","2<sup>th</sup> &emsp; second","1<sup>th</sup> &emsp; first"],
+            "audios": ["../audios/missing/tenth.mp3", "../audios/missing/ninth.mp3", "../audios/missing/eighth.mp3", "../audios/missing/seventh.mp3", "../audios/missing/sixth.mp3", "../audios/missing/fifth.mp3", "../audios/missing/fourth.mp3", "../audios/missing/third.mp3", "../audios/missing/second.mp3", "../audios/missing/first.mp3"],
+            "sentences": ["10<sup>th</sup> &emsp; tenth","9<sup>th</sup> &emsp; ninth","8<sup>th</sup> &emsp; eighth","7<sup>th</sup> &emsp; seventh","6<sup>th</sup> &emsp; sixth","5<sup>th</sup> &emsp; fifth","4<sup>th</sup> &emsp; fourth","3<sup>rd</sup> &emsp; third","2<sup>nd</sup> &emsp; second","1<sup>st</sup> &emsp; first"],
         },
     ]
 }

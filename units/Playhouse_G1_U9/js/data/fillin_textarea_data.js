@@ -30,8 +30,9 @@ var fillin_data = {
     "subTitleTextLeft"      : '<span class="blue_text">3</span> Class writing.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/under.mp3",
+    "subTitleAudio"         : "../audios/missing/Class writing.mp3",
     "defaultAnswer"         : 1,
     "background_image"      : "../images/pages/activities/BOOKS.jpg",
+    "textAudio":"../audios/missing/Write about what Ms.mp3",
     "text":"Write about what Ms. Lopez’s class likes. <br> Ms. Lopez’s class wants to have a picnic. Max likes",
   }

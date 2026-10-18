@@ -40,7 +40,7 @@ var reading_data = {
             "boxes": [
                 {
                     "image": "../images/pages/page-5/1-img-1.png",
-                    "list": ["This is <span class='red_text'>sh</span>eep <br>in a <span class='red_text'>sh</span>op."],
+                    "list": ["This is a <span class='red_text'>sh</span>eep <br>in a <span class='red_text'>sh</span>op."],
                     "audio": ["../audios/page_70/This_is_a_sheep_in_a_shop.mp3"]
                 },
                 {

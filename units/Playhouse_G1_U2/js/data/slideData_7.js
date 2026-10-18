@@ -46,7 +46,7 @@ var reading_data = {
             "welcomeImage":"../images/pages/page-3/welcome-img.png",
             "parentClassName": "grammar_slide",
             "group_styles": "",
-            "letters":["G","R","A","M","M","E","R"],
+            "letters":["G","R","A","M","M","A","R"],
             "gram_title":"",
             "audio": ["../audios/page_18/page_34/Pg6_2.1_Stella.mp3","../audios/page_18/page_34/dough.mp3","../audios/page_18/page_34/sauce.mp3","../audios/page_18/page_34/sprinkle.mp3","../audios/page_18/page_34/cheese.mp3","../audios/page_18/page_34/add.mp3","../audios/page_18/page_34/pepperoni.mp3","../audios/page_18/page_34/slice.mp3"],
             "slide_1_title":"Rule  ",

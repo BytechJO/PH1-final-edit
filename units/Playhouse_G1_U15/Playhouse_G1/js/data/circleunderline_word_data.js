@@ -3,7 +3,7 @@ var circleunderline_word_data = {
   mainTitleIcon: "",
   mainTitleAudio: "../audios/under.mp3",
   subTitleTextLeft:
-    '<span class="blue_text">1</span> Read and circle <b>the</b>. Underline the noun it describes.',
+    '<span class="blue_text">1</span> Read and circle the word <b>the</b>. Underline the noun that follows it.',
   subTitleAudio: "../audios/under.mp3",
   questions: [
     {

@@ -328,7 +328,7 @@ function buildStudentBookPagesSidebar() {
   sStmt += '<div class="studentBookPagesSidebarList">';
 
   $.each(_activityData.list, function (index, page) {
-    if (page.build == "yes") {
+    if (page.file) {
       var pageLabel = "Page " + (index + 1);
       var activeClass = page.file.toLowerCase() == currentFile ? "active" : "";
       sStmt +=

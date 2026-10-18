@@ -46,13 +46,13 @@ var _activity_json = {
             ["<b>3</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-3.png' class='q_img'>   &nbsp;___&nbsp; is black."],
         ],
         [
-            ["<b>4</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-4.png' class='q_img'> the &nbsp;___&nbsp; are yellow."],
+            ["<b>4</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-4.png' class='q_img'> &nbsp;___&nbsp; are yellow."],
         ],
         [
             ["<b>5</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-5.png' class='q_img'>   &nbsp;___&nbsp; are blue."],
         ],
         [
-            ["<b>6</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-6.png' class='q_img'> the &nbsp;___&nbsp; are black. I like my job!"],
+            ["<b>6</b> &nbsp; My &nbsp; <img src='../images/pages/activities/4-img-6.png' class='q_img'> &nbsp;___&nbsp; are black. I like my job!"],
         ],
        
     ],

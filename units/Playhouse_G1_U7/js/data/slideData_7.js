@@ -34,7 +34,7 @@ var reading_data = {
       "welcomeImage":"../images/pages/page-3/welcome-img.png",
       "parentClassName": "grammar_slide",
       "group_styles": "",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       "gram_title":"<span class='red_text'>Prepositions of Time</span>",
       "audio": ["../audios/page_56/Pg6_2.1_Stella.mp3","../audios/page_56/dough.mp3","../audios/page_56/sauce.mp3","../audios/page_56/sprinkle.mp3","../audios/page_56/cheese.mp3","../audios/page_56/add.mp3","../audios/page_56/pepperoni.mp3","../audios/page_56/slice.mp3"],
       "slide_1_title":"<span class='red_text'> in </span> ",

@@ -110,7 +110,7 @@ var _activityData = {
     //Circle with underlin
     {
       file: "circleunderline.html",
-      type: "circleunderline",
+      type: "circleunderline_word",
       subtype: "",
       build: "yes", // yes (or) no
       activityCtrls: "yes",

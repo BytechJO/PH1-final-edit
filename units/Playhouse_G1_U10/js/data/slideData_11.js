@@ -40,7 +40,7 @@ var reading_data = {
                 },
                 {
                     "image": "../images/pages/page-5/1-img-2.png",
-                    "list": ["This is my father’s <br>c<span class='red_text'>c</span>ar. My father’s <br><span class='red_text'>c</span>ar is in the <span class='green_text'>c</span>ity."],
+                    "list": ["This is my father’s <br><span class='red_text'>c</span>ar. My father’s <br><span class='red_text'>c</span>ar is in the <span class='green_text'>c</span>ity."],
                     "audio": ["../audios/page_80/This_is_my_father’s_car._My_father’s_car_is_in_the_city.mp3"]
                 },
                 {

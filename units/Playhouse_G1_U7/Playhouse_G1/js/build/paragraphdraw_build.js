@@ -32,7 +32,7 @@ function buildParagraphDrawBody(aObj) {
 					for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
 						htmlStmt += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
 					}
-					htmlStmt += "<br><p class='subTitleTextRight'>" + aObj.subTitleTextRight + " </p>";
+					htmlStmt += "<br><p class='subTitleTextRight'>" + (aObj.subTitleTextRight || "") + " </p>";
 				htmlStmt += "</div>";
 			}else {
 				htmlStmt += "<div class='page_sub_title d-flex'>";
@@ -40,7 +40,7 @@ function buildParagraphDrawBody(aObj) {
 					// for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
 					// 	htmlStmt += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
 					// }
-					htmlStmt += "<p class='subTitleTextRight'>" + aObj.subTitleTextRight + " </p>";
+					htmlStmt += "<p class='subTitleTextRight'>" + (aObj.subTitleTextRight || "") + " </p>";
 				htmlStmt += "</div>";
 			}
 			htmlStmt += '</div>';

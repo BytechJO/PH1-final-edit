@@ -1,11 +1,11 @@
 var stereo_data = {
-    "audio":"",
-    "exist":false,
+    "audio":"../audios/missing/Slide 10_Song.mp3",
+    "exist":true,
     "bgColor_rgb":"rgb(53, 130, 180)",
     "type":"toggle_slide",
     "playListData" : [
         {
-          'audiourl': '../audios/page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
+          'audiourl': "../audios/missing/Slide 10_Song.mp3",
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/gramprac_main_title.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/under.mp3",
+    "mainTitleAudio": "../audios/missing/Slide 10_Grammer Practice.mp3",
     "subTitleTextLeft": "<span class='blue_text'>3</span> Listen and sing along.",
     "subTitleTextRight": "",
     "subTitleIcons": ["../images/pages/sb-icons/gramprac_3_icon.png"],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/missing/Slide 10_Listen.mp3",
     "slides": [
         {
             "mainTitle": "../images/pages/page-2/1-title_1.png",
@@ -41,7 +41,7 @@ var reading_data = {
             "convImage": [
                 {
                     "songText": "Stand up.<br /> Sit down.<br /> Give a little clap.<br /><br /> Close your book.<br /> Open your book.<br /> Give another clap.<br /><br /> Turn to page<br /> <span class='pink_text'>[say page number]</span><br /> Do it in a snap!",
-                    "audio": "../audios/Pg6_2.1_Stella.mp3",
+                    "audio": "../audios/missing/Slide 10_Song.mp3",
                     "imgPos": {"top": "0px", "left": "31%"}
                 }
             ]

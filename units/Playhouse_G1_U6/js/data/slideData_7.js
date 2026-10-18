@@ -36,7 +36,7 @@ var reading_data = {
       "group_styles": "",
       "slide_1_title":"Rule",
       "slide_2_title":"Questions",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       "audio": ["../audios/page_46/Pg6_2.1_Stella.mp3","../audios/page_46/dough.mp3","../audios/page_46/sauce.mp3","../audios/page_46/sprinkle.mp3","../audios/page_46/cheese.mp3","../audios/page_46/add.mp3","../audios/page_46/pepperoni.mp3","../audios/page_46/slice.mp3"],
       "word": [
           "<span class='red_text'>Can / Can’t</span>",

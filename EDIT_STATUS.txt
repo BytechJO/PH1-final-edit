@@ -1,0 +1,43 @@
+PH1 final edit - implementation status (18 October 2026)
+
+Original GitHub repository has not been pushed or modified. Work is local in this separate clone.
+No image or video assets have been modified. Image/video work is pending discussion with the user.
+
+QA:
+PH-01: Changed Unit 15 SB activity to circle THE and underline the noun, preserving all four original sentences. Verified against source p114. All four correct responses pass in browser.
+PH-02: Preserve straight/curly apostrophes, normalize curly apostrophes for grading, correct answer keys. Six correctly punctuated fields pass browser check.
+PH-03: Q4 now uses we in both answers; expected answer remains No, we don't.
+PH-04 through PH-18: Corrected reported text, ordinals and missing optional subtitle rendering.
+PH-19: Clarified THE instruction from actual activity data (not adjective); removed undefined subtitle.
+PH-20: Removed undefined optional subtitle.
+PH-21: Still requires video content verification and user discussion. Story and conversation still reference the same video. New supplied videos are companion lessons, not necessarily direct story replacements.
+PH-22: Bracketed page-number cue confirmed in original Student Book p13; retained. No trailing apostrophe found in current song text.
+PH-23: Corrected GRAMMAR letter sequence across all 15 units.
+PH-24 through PH-30: Page menu now includes existing pages regardless of build flag; build:no identifies standalone activities, not hidden pages.
+
+Missing audio implemented:
+- Read titles in all 15 unit introductions.
+- Unit 1 slide 1-4 radio tracks; song, song heading and prompt.
+- Unit 2 sentence-building right-hand explanation.
+- Unit 6 Write about you prompt; song radio track.
+- Unit 7 ordinal word recordings, Match, Now write about you, available sentence fragments, PHONICS heading.
+- Unit 8 question prompts, Point and say examples, Look and write, Circle ll.
+- Unit 9 Class writing prompt and paragraph prompt.
+- Unit 10 Now write about things prompt.
+- Unit 12 Answer prompt, question recordings, Play the game and description prompt.
+
+Validation:
+- 87 changed JavaScript files parsed successfully at the first syntax-check checkpoint.
+- git diff --check passed.
+- Browser: Unit 1 contraction exercise accepted straight/curly apostrophes; Unit 7 personal writing accepts typing and newly included menu entries are present; Unit 15 THE/noun exercise passed all four answers.
+- Added audio path existence audit passed.
+- These checks are not a full audio listening/content review or full 15-unit regression.
+
+Still pending:
+- All missing/wrong images and activities requiring those images; no image edits made.
+- Missing conversation/story videos and Unit 6 duplicate-video verification; no video edits made.
+- Remaining audio whose intended content or mapping needs verification (including unnamed ElevenLabs recording, Unit 6/7 titles, Unit 8 toy options, partial Unit 11/15 recordings).
+- Source folder GRADE 1 contains Student Book unit PDFs pp10-115 in unit ranges; workbook/review source pages are not included.
+
+Next concrete image proposal:
+Unit 4 slide_11.html, last phonics card: current 36-card-4.png shows a frog on a box while text says dog on a box. Compare to source p36 before preparing an exact replacement. Discuss with user before changing or replacing the image.

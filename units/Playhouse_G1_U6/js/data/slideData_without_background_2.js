@@ -1,11 +1,11 @@
 var stereo_data = {
   "audio":"",
-  "exist":false,
+  "exist":true,
   "bgColor_rgb":"rgb(53, 130, 180)",
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/demo.mp3',
+        'audiourl': "../audios/missing/I_Can_Run_Clap_and_Jump_2026-10-01T103036.mp3",
       },
       {
         'url': '',

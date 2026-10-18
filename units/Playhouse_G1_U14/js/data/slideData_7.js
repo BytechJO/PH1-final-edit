@@ -34,7 +34,7 @@ var reading_data = {
       "welcomeImage":"../images/pages/page-3/welcome-img.png",
       "parentClassName": "grammar_slide",
       "group_styles": "",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       "gram_title":"<span class='red_text'>like </span> (to describe things)",
       "audio": ["../audios/page_106/Pg6_2.1_Stella.mp3","../audios/page_106/dough.mp3","../audios/page_106/sauce.mp3","../audios/page_106/sprinkle.mp3","../audios/page_106/cheese.mp3","../audios/page_106/add.mp3","../audios/page_106/pepperoni.mp3","../audios/page_106/slice.mp3"],
       "word": [

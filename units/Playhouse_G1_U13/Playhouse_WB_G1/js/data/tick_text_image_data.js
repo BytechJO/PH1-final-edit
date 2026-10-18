@@ -26,7 +26,7 @@ var mcq_tick_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
     "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='blue_text'>1</span> Look at the picture and read. Tickk ✓ the right conversation.",
+    "subTitleTextLeft"      : "<span class='blue_text'>1</span> Look at the picture and read. Tick ✓ the right conversation.",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/under.mp3", 
@@ -48,7 +48,7 @@ var mcq_tick_data = {
             "numberstartfrom"		: 1,
             "options"               : [
                 {
-                    "text"          : "A: Hi, Dan! <br> B: Hi, Mark. What are you doing after school? <br> A: I don’t know. What do you want to do? <br> B: I want to play football.. <br> A: Let’s play football in the park.",
+                    "text"          : "A: Hi, Dan! <br> B: Hi, Mark. What are you doing after school? <br> A: I don’t know. What do you want to do? <br> B: I want to play football. <br> A: Let’s play football in the park.",
                     "image"         : "no",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default

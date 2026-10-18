@@ -25,7 +25,7 @@ var mcq_data = {
     "mainTitleIcon": "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos": {"right": "-18px"},
     "mainTitleAudio": "../audios/under.mp3",
-    "subTitleTextLeft": "<span class='blue_text'>2</span> Say the sounds. Write the words",
+    "subTitleTextLeft": "<span class='blue_text'>2</span> Look, read and choose.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
     "subTitleAudio": "../audios/under.mp3",
@@ -51,7 +51,7 @@ var mcq_data = {
             
         },
         {
-            "question"              : "TIs it a board? [_]",
+            "question"              : "Is it a board? [_]",
             "options"               : [["Yes, it is.","No, it isn’t."]],          
             "answer"                : [1],
 			"inputbox"				: "yes",

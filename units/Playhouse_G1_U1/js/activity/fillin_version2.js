@@ -37,7 +37,7 @@ FillIn.prototype = {
                 if(typeof $(this).data('type') != undefined && $(this).data('type')!=null){
                     var typ = $(this).data('type');
                     if(typ == 'text'){
-                        $(this).val($(this).val().replace(/[^a-z ]/gi, ''));
+                        $(this).val($(this).val().replace(/[^a-z '’]/gi, ''));
                     }else if(typ == 'number'){
                         if($.isNumeric(v) === false) {               
                             this.value = this.value.replace(/\D/g, '');           
@@ -78,6 +78,7 @@ FillIn.prototype = {
                     if($(this).val().length > 0){
                         thisVal = (_case == 'yes') ? $.trim($(this).val()) : ($.trim($(this).val())).toLowerCase();
                     }
+                    thisVal = thisVal.replace(/’/g, "'");
                     if(thisVal != ""){
                         // console.log('>_validationOrderCase> ', numOfInputs, _validationOrderCase);
                         if(numOfInputs > 1 && _validationOrderCase == 'no'){

@@ -44,7 +44,7 @@ var fillin_data = {
         "audio": "",
         "audioenable": "default", // correct (or) default
         "image": "../images/pages/activities/grammer_2_1.png",
-        "answer": ["its"],
+        "answer": ["it's"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no  
         "strictorder": "yes", // yes (or) no              
@@ -59,7 +59,7 @@ var fillin_data = {
         "audio": "",
         "audioenable": "default", // correct (or) default
         "image": "../images/pages/activities/grammer_2_2.png",
-        "answer": ["its"],
+        "answer": ["it's"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no     
         "strictorder": "yes", // yes (or) no             
@@ -74,7 +74,7 @@ var fillin_data = {
         "audio": "",
         "audioenable": "default", // correct (or) default
         "image": "../images/pages/activities/grammer_2_3.png",
-        "answer": ["whats","book"],
+        "answer": ["what's","book"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
@@ -89,7 +89,7 @@ var fillin_data = {
         "audio": "",
         "audioenable": "default", // correct (or) default
         "image": "../images/pages/activities/grammer_2_4.png",
-        "answer": ["this","its"],
+        "answer": ["this","it's"],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              

@@ -34,7 +34,7 @@ var reading_data = {
       "welcomeImage":"../images/pages/page-3/welcome-img.png",
       "parentClassName": "grammar_slide",
       "group_styles": "",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       "gram_title":"<span class='red_text'>drive / go / take / ride / walk / fly</span>",
       "audio": ["../audios/page_84/Pg6_2.1_Stella.mp3","../audios/page_84/dough.mp3","../audios/page_84/sauce.mp3","../audios/page_84/sprinkle.mp3","../audios/page_84/cheese.mp3","../audios/page_84/add.mp3","../audios/page_84/pepperoni.mp3","../audios/page_84/slice.mp3"],
       "word": [

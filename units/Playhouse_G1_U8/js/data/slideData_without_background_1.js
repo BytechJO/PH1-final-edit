@@ -25,7 +25,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='blue_text'>3</span> Point and say.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/missing/Point and say.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -33,7 +33,7 @@ var reading_data = {
             "mainImage": [""],
             "parentClassName": "full_grid_without_background_image",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/missing/Example.mp3", "", "../audios/missing/This is Jenny’s tablet.mp3", "", "../audios/missing/These are Yoshi’s yo-yos.mp3"],
             "word": [
                 "Example:",
                 "<img src='../images/pages/activities/7-img-1.png' style='height: 225px; padding:10px;'>",

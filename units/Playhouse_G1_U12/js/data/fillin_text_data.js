@@ -28,7 +28,7 @@ var fillin_data = {
   "subTitleTextLeft"      : "<span class='blue_text'>2</span> Answer.",
   "subTitleTextRight"     : "",
   "subTitleIcons"         : ["../images/pages/sb-icons/gram_2_icon.png"],
-  "subTitleAudio"         : "../audios/under.mp3",
+  "subTitleAudio"         : "../audios/missing/Answer.mp3",
   "ontextaudioplay"       : '',
   "onimgaudioplay"        : '',
   "numbering"             : "number", // "alphabet" (or) "number"
@@ -41,7 +41,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "<b>1</b> &nbsp; Where does Ms. Lori work? [_]",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/Where does Ms. Lori work.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",
@@ -56,7 +56,7 @@ var fillin_data = {
     {
       "singleword": false,
       "text": "<b>2</b> &nbsp; Does Officer Sam work in an office? [_]",
-      "textaudios": [],
+      "textaudios": ["../audios/missing/Does Officer Sam work in an office.mp3"],
       "image": "",
       "option":"",
       "audio": "../audios/in.mp3",

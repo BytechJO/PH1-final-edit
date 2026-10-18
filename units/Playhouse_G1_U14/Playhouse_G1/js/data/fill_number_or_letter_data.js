@@ -68,7 +68,7 @@ var fillin_data = {
         },
         {
             "textfront": "",
-            "textback": "It’s autumn. She's in the city. It’s rainy. She's has got an umbrella.",
+            "textback": "It’s autumn. She's in the city. It’s rainy. She has got an umbrella.",
             "audio": "../audios/under.mp3",
             "audioenable": "default", // correct (or) default
             "image": "",

@@ -28,7 +28,7 @@ var mcq_tick_data = {
     "subTitleTextLeft"      : "<span class='blue_text'>3</span> Listen and choose. Which toy is in the garage?",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/under.mp3",
+    "subTitleAudio"         : "../audios/missing/Listen and choose. Which toy is in the garage.mp3",
     "select"                : "single", // single (or) multiple
     "shape"                 : "tickbox", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) tickbox
     "bgcolor"               : "none",

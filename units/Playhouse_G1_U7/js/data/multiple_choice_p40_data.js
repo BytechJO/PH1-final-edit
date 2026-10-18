@@ -57,7 +57,7 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "<span class='pink_text'>Februarya</span>",
+                    "text"          : "<span class='pink_text'>February</span>",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default

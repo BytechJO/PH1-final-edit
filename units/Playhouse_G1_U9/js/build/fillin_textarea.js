@@ -44,7 +44,7 @@
     // ============== ****  **** ==============  
 
                 htmlStmt += '<div class="options">';
-                htmlStmt += '<span class="text">'+aObj.text+'</span>'
+                htmlStmt += '<span class="text audioIcon off" data-audio="'+aObj.textAudio+'">'+aObj.text+'</span>'
                 htmlStmt += '<div class="textarea-container" style="background-image:url('+aObj.background_image+')">';
                     htmlStmt += ' <textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>';
                 htmlStmt += '</div>';

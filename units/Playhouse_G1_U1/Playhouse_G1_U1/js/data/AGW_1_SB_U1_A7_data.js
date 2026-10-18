@@ -29,7 +29,7 @@
             
 //         },
 //         {
-//             "question"              : "TIt’s [_] book.",
+//             "question"              : "It’s [_] book.",
 //             "options"               : [["a","an"]],          
 //             "answer"                : [1],
 // 			"inputbox"				: "yes",
@@ -115,7 +115,7 @@ var mcq_data = {
             
         },
         {
-            "question"              : "TIt’s [_] book.",
+            "question"              : "It’s [_] book.",
             "options"               : [["a","an"]],
             "answer"                : [1],
 			"inputbox"				: "yes",

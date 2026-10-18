@@ -34,7 +34,7 @@ var reading_data = {
       "welcomeImage":"../images/pages/page-3/welcome-img.png",
       "parentClassName": "grammar_slide",
       "group_styles": "",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       // "gram_title":"<span class='red_text'>Prepositions</span>",
       "audio": ["../audios/page_90/Pg6_2.1_Stella.mp3","../audios/page_90/dough.mp3","../audios/page_90/sauce.mp3","../audios/page_90/sprinkle.mp3","../audios/page_90/cheese.mp3","../audios/page_90/add.mp3","../audios/page_90/pepperoni.mp3","../audios/page_90/slice.mp3"],
       "word": [

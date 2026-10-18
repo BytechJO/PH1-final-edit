@@ -71,14 +71,14 @@ var circleanswer_data = {
       ],
     },
     {
-      que: "4 Do we take a train to the mall?",
+      que: "Do we take a train to the mall?",
       audio: "",
       mainImg: "../images/pages/activities/1-img-2.png",
 
       answer: "2",
       options: [
-        { text: "Yes, I do.", audio: "" },
-        { text: "No, I don't.", audio: "" },
+        { text: "Yes, we do.", audio: "" },
+        { text: "No, we don't.", audio: "" },
       ],
     },
   ],

@@ -213,7 +213,7 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "a big ",
+                    "text"          : "and a big ",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
@@ -345,7 +345,7 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "her",
+                    "text"          : "",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default

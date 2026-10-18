@@ -57,7 +57,11 @@ var Popups_data = {
           "<span class='blue_text'>3</span> Read.",
         ],
         titleIcons: ["", "", "../images/pages/page-1/q-1-icon-3.png"],
-        titlesAudio: ["../audios/page_88/1_Listen_and_say.mp3","../audios/page_88/PLAYHOUSE_1_SB_UNIT_1_TRACK_02_02.mp3"],
+        titlesAudio: [
+          "../audios/page_88/1_Listen_and_say.mp3",
+          "../audios/page_88/PLAYHOUSE_1_SB_UNIT_1_TRACK_02_02.mp3",
+          "../audios/Read.mp3",
+        ],
         image: [
           "../images/pages/snapshots/page-1/popup-3-elem-1.png",
           "../images/pages/snapshots/page-1/popup-3-elem-2.png",

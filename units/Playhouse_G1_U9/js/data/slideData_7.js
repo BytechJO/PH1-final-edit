@@ -34,7 +34,7 @@ var reading_data = {
       "welcomeImage":"../images/pages/page-3/welcome-img.png",
       "parentClassName": "grammar_slide",
       "group_styles": "",
-      "letters":["G","R","A","M","M","E","R"],
+      "letters":["G","R","A","M","M","A","R"],
       "audio": ["../audios/page_68/Pg6_2.1_Stella.mp3","../audios/page_68/dough.mp3","../audios/page_68/sauce.mp3","../audios/page_68/sprinkle.mp3","../audios/page_68/cheese.mp3","../audios/page_68/add.mp3","../audios/page_68/pepperoni.mp3","../audios/page_68/slice.mp3"],
       "word": [
           "<span class='red_text'>Like</span>",
