@@ -1,6 +1,6 @@
 
 .wbp6 {width: min(1120px, 84vw); margin: 0 auto; text-align:center; padding-bottom:12px;}
-.wbp6 h2 {font-size:26px;text-align:left;margin:8px 0;color:#00b9f2;font-family:Arcon;font-weight:700;}
+.wbp6 h2 {font-size:26px;text-align:left;margin:8px 0;color:#212529;font-family:Arcon;font-weight:700;}
 .wbp6-title {display:block;max-width:340px;height:44px;object-fit:contain;object-position:left;}
 .wbp6-tools {display:flex;justify-content:center;align-items:center;gap:10px;flex-wrap:wrap;margin:10px 0;}
 .wbp6-tools button {font:inherit;font-size:20px;border:2px solid #2497c4;border-radius:8px;padding:6px 12px;background:#fff;cursor:pointer;}
