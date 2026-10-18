@@ -1,0 +1,22 @@
+
+.wbp7{width:min(1160px,85vw);margin:0 auto;font-family:Arcon}
+.wbp7-title{height:44px;max-width:100%;object-fit:contain;object-position:left}
+.wbp7 h2{font:700 26px Arcon;color:#00b9f2;margin:8px 0}
+.wbp7-palette{display:flex;justify-content:center;gap:10px;margin:12px 0;flex-wrap:wrap}
+.wbp7-palette button,.wbp7-tools button{font:20px Arcon;border:2px solid #2497c4;background:white;border-radius:8px;padding:5px 10px;cursor:pointer}
+.wbp7-palette button[aria-pressed=true]{outline:3px solid #055c93;outline-offset:2px}
+.wbp7-palette span{display:inline-block;width:20px;height:20px;border:1px solid #444;border-radius:50%;vertical-align:middle;margin-right:6px}
+.wbp7-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.wbp7-card{border:1px solid #a9dced;border-radius:12px;padding:12px}
+.wbp7 .que{display:flex;position:relative;gap:8px;min-height:90px;margin:0;font-size:22px}
+.wbp7 .pick_set{display:flex;flex-direction:column;gap:10px}
+.wbp7 .pick{font:22px Arcon;background:white!important;color:#111;border:0;text-align:left;padding:0;cursor:pointer}
+.wbp7 .pick:before{content:"";display:inline-block;width:22px;height:22px;border:2px solid #777;margin-right:8px;vertical-align:middle;line-height:18px;text-align:center}
+.wbp7 .pick.selected:before{content:"✓";color:#008bc6;border-color:#008bc6}
+.wbp7 canvas{display:block;width:100%;height:clamp(150px,calc(100vh - 510px),360px);object-fit:contain;touch-action:none;cursor:crosshair}
+.wbp7-tools{display:flex;justify-content:center;gap:8px}
+.wbp7-tools button{font-size:16px}
+.wbp7 .icon_wrap{position:absolute;right:0;top:-14px;width:26px;padding:0}
+.wbp7 .icon_wrap img{width:26px}
+.wbp7-status{margin:0;font-size:16px}
+@media(max-width:700px){.wbp7-cards{grid-template-columns:1fr}.wbp7 h2{font-size:22px}}

@@ -1,0 +1,2 @@
+var stereo_data={exist:false,bgColor_rgb:"rgb(37,187,240)",audio:"",type:"text",playListData:[]};
+var mcq_data={"select": "single", "bgcolor": "none", "shape": "checkbox", "questions": [{"options": [["It is a green rubber.", "It is a green board."]], "answer": [1], "audio": ""}, {"options": [["It is an orange pen.", "It is an orange ruler."]], "answer": [1], "audio": ""}, {"options": [["It is a blue desk.", "It is a blue crayon."]], "answer": [2], "audio": ""}]};
