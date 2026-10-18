@@ -6,3 +6,7 @@ Added the three supplied images in a new activity after Read and choose. Heading
 ## Student Book page 18: he/she colouring
 Added supplied P18.svg unchanged and a new colouring activity after page 18 writing. Blue/red palette, bounded area fill, background exclusion, undo and clear. Verified colouring on all five figures, background rejection, undo/clear and previous/next links. Colouring is not automatically graded.
 
+
+## Workbook page 15: Colour the correct answer
+Added four supplied room illustrations and coloured Yes/No speech-bubble selection before Look and write. Correct answers: No, No, Yes, Yes. Verified all images, answer selection colour, correct/incorrect feedback, reset and navigation.
+

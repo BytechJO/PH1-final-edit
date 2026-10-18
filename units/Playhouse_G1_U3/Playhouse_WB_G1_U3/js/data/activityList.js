@@ -22,6 +22,7 @@ var _activityData = {
       visited: 0,
       score: 0,
     },
+    {file:"WB_G1_U3_P15_1.html",type:"mcq",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
     {
       file: "fillin_columns.html",
       type: "fillin",

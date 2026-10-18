@@ -1,0 +1,14 @@
+
+.wbp15{width:min(1120px,84vw);margin:auto;font-family:Arcon}
+.wbp15-title{height:42px;max-width:100%;object-fit:contain}
+.wbp15 h2{font:700 26px Arcon;color:#00b9f2;margin:8px 0 12px}
+.wbp15-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 30px}
+.wbp15 .que{position:relative;text-align:center;margin:0;padding:0 24px}
+.wbp15 .que p{font:22px Arcon;margin:0 0 6px}
+.wbp15 .pick_set{display:flex;justify-content:center;gap:12px;margin-bottom:8px}
+.wbp15 .pick{position:relative;font:20px Arcon;border:2px solid #00b9f2;border-radius:12px;padding:4px 14px;background:white;cursor:pointer;color:#111}
+.wbp15 .pick:after{content:"";position:absolute;bottom:-8px;left:16px;width:12px;height:12px;transform:skewY(-35deg);border-left:2px solid #00b9f2;border-bottom:2px solid #00b9f2;background:inherit}
+.wbp15 .pick.selected{background:#8edbf7!important}
+.wbp15 .room{display:block;height:clamp(90px,calc((100vh - 480px)/2),210px);max-width:100%;object-fit:contain;margin:auto}
+.wbp15 .icon_wrap{position:absolute;right:0;top:35px;width:28px}.wbp15 .icon_wrap img{width:28px}
+@media(max-width:700px){.wbp15-grid{grid-template-columns:1fr}.wbp15 .que p{font-size:20px}.wbp15 .room{height:160px}}
