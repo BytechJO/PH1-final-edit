@@ -22,3 +22,10 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Responsive four-column layout; instruction audio retained; empty stereo hidden.
 - Browser verified four correct matches, incorrect-match feedback, colouring on all four images, Undo and reset. JS syntax and diff checks passed.
 
+
+## Student Book p72 — Write and colour (2026-10-18)
+- Added supplied ice cream images unchanged, in two rows of four with printed 1st/7th examples.
+- Added ordinal inputs, blue/red/brown silhouette colouring, answer checking and reset. First-name field is free response.
+- Inserted activity between review matching and writing; refreshed navigation cache references.
+- Browser verified 8/8 correct, 7/8 after wrong ordinal, reset and previous/next links. Syntax/diff checks passed.
+
