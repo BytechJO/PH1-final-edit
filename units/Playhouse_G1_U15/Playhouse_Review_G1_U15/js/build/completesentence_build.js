@@ -103,7 +103,7 @@ function buildCompleteSentenceBody(aObj) {
 
     if (aObj.image != undefined && aObj.image != "") {
       htmlStmt +=
-        '<div class="cs_image_wrap"><img src="' + aObj.image + '"></div>';
+        '<div class="cs_image_wrap"><div class="cs_colour_box"><img alt="Two children to colour" src="' + aObj.image + '"><canvas aria-label="Colour the children"></canvas></div><div class="cs_colour_controls" aria-label="Colouring tools"></div></div>';
     }
 
     htmlStmt += "</div>"; // - end group_elm

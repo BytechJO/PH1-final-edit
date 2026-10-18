@@ -17,6 +17,7 @@ CompleteSentence.prototype = {
     init:function(ob){
         this.ob = ob;
         this.listen(ob);
+        setupKidsColouring(ob.activity_area);
     },
     listen:function(ob){
         var e = (ob.activity_area);
