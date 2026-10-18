@@ -1,7 +1,7 @@
 
 .wbp7{width:min(1160px,85vw);margin:0 auto;font-family:Arcon}
 .wbp7-title{height:44px;max-width:100%;object-fit:contain;object-position:left}
-.wbp7 h2{font:700 26px Arcon;color:#00b9f2;margin:8px 0}
+.wbp7 h2{font:italic 700 26px Arcon;color:#00b9f2;margin:8px 0}
 .wbp7-palette{display:flex;justify-content:center;gap:10px;margin:12px 0;flex-wrap:wrap}
 .wbp7-palette button,.wbp7-tools button{font:20px Arcon;border:2px solid #2497c4;background:white;border-radius:8px;padding:5px 10px;cursor:pointer}
 .wbp7-palette button[aria-pressed=true]{outline:3px solid #055c93;outline-offset:2px}
@@ -20,3 +20,5 @@
 .wbp7 .icon_wrap img{width:26px}
 .wbp7-status{margin:0;font-size:16px}
 @media(max-width:700px){.wbp7-cards{grid-template-columns:1fr}.wbp7 h2{font-size:22px}}
+
+.wbp7-heading-tick{font-size:36px;vertical-align:middle;line-height:26px;margin:0 5px}
