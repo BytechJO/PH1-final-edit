@@ -58,3 +58,5 @@ Still pending / source-dependent:
 - Other missing images/activities listed in the source review remain outside this completion pass. Full Student Book and Workbook PDFs are now available in G1 Pdf.
 
 U9 table follow-up: all 12 user-supplied character/food PNGs linked unchanged, including cola and popcorn. Table expanded to 1250px maximum with screen-height-scaled rows and larger text. Prior missing-table-image note is resolved.
+
+Workbook U1 p6 completed: two separate slides WB_G1_U1_P6_1.html (bag) and WB_G1_U1_P6_2.html (rubber), inserted after page 5. User-supplied SVGs and heading copied unchanged. Five numbered colours, bounded click-to-fill, Undo and Clear colours per slide. Existing answer checker grades the word only; colours are not automatically graded. Browser tests: wrong word rejected, bag/rubber accepted, fill stays in clicked region, Undo/Clear work, next link connects the two slides.

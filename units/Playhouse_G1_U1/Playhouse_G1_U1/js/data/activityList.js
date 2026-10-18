@@ -67,6 +67,8 @@ var _activityData = {
       "visited": 0,
       "score": 0
    },
+   {file:'WB_G1_U1_P6_1.html',type:'fillin',build:'yes',activityCtrls:'yes',layout:2,visited:0,score:0},
+   {file:'WB_G1_U1_P6_2.html',type:'fillin',build:'yes',activityCtrls:'yes',layout:2,visited:0,score:0},
    {
       'file': 'AGW_1_SB_U1_A7.html',
       'type': 'mcq',
