@@ -29,3 +29,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Inserted activity between review matching and writing; refreshed navigation cache references.
 - Browser verified 8/8 correct, 7/8 after wrong ordinal, reset and previous/next links. Syntax/diff checks passed.
 
+
+## Workbook p40 question 1 (2026-10-18)
+- Added four supplied toy/owner cards unchanged and restored the missing write-and-choose exercise before page 40 Write.
+- Preserved solved Jenny example; keys Yoshi yo-yo, Max ball, Lilly skates, with Whose/this/are inputs.
+- Browser verified correct answers, wrong choice feedback, reset preserving example and previous/next navigation.
+

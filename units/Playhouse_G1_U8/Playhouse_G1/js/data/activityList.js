@@ -22,6 +22,7 @@ var _activityData = {
          "visited"            : 0,
          "score"              : 0
       },
+      {file:'WB_G1_U8_P40_1.html',type:'fillin',subtype:'',build:'yes',activityCtrls:'yes',layout:1,visited:0,score:0},
       {
          "file"               : "fillin_text_2.html",
          'type'               : 'fillin',
