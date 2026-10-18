@@ -148,22 +148,25 @@ td {
   font-weight: bolder;
 }
 
-/* Keep all seven food rows visible on classroom laptop screens. */
-.tick_group { width: 100%; max-width: 850px; }
-.tick_group table { width: 100%; }
-.tick_group td { height: 42px; min-width: 52px !important; }
-.tick_group .images-border { width: 38px; height: 38px; object-fit: contain; }
-.tick_group td:first-child { padding: 1px 10px !important; height: 42px !important; }
-.tick_group .tickContent { height: auto; font-size: 20px; }
-.tick_group .tickBox { height: 32px; min-width: 32px; margin: 2px auto; }
-
-.act_head_group { margin-bottom: -30px !important; }
+/* Scale the table to the available classroom screen height. */
+.tick_group { width: 100%; max-width: min(1250px, 82vw); --row-size: clamp(42px, calc((100vh - 390px) / 8), 82px); }
 .tick_group .que, .tick_group .tick_fields { width: 100%; }
-.tick_group table { display: table !important; }
+.tick_group table { display: table !important; width: 100%; table-layout: fixed; }
+.tick_group td { height: var(--row-size); min-width: 0 !important; text-align: center; }
+.tick_group td:first-child { width: 35%; padding: 1px 12px !important; height: var(--row-size) !important; }
+.tick_group .images-border { width: calc(var(--row-size) - 4px); height: calc(var(--row-size) - 4px); object-fit: contain; flex-shrink: 0; }
+.tick_group .tickContent { height: auto; font-size: clamp(20px, 2vw, 30px); }
+.tick_group .tickBox { height: calc(var(--row-size) - 6px); min-width: 32px; margin: 2px auto; display: flex; align-items: center; justify-content: center; }
+.act_head_group { margin-bottom: -30px !important; }
+.table-label { background-color: #e9eaea; pointer-events: none; }
 @media (max-width: 600px) {
-  .tick_group .tickContent { font-size: 16px; }
-  .tick_group td { min-width: 34px !important; }
-  .tick_group td:first-child { padding: 1px 3px !important; }
+ .tick_group .tickContent { font-size: 16px; }
+ .tick_group td:first-child { width: 40%; padding: 1px 3px !important; gap: 3px; }
+ .tick_group .images-border { width: 32px; }
 }
 
-.table-label { background-color: #e9eaea; pointer-events: none; }
+.tick_group td:first-child { display: table-cell !important; vertical-align: middle; text-align: left; }
+.tick_group td:first-child .images-border { vertical-align: middle; margin-right: 12px; }
+.tick_group td:first-child .tickContent { display: inline; vertical-align: middle; }
+
+.tick_group td { line-height: 1; }

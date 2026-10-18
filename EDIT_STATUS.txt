@@ -56,3 +56,5 @@ Still pending / source-dependent:
 - U2 p17 poem, remaining title/prompt placeholders and unnamed ElevenLabs recording require content identification; filenames alone are insufficient.
 - Missing conversation/story videos and PH-21 U6 duplicate video: pending correct media and user discussion.
 - Other missing images/activities listed in the source review remain outside this completion pass. Full Student Book and Workbook PDFs are now available in G1 Pdf.
+
+U9 table follow-up: all 12 user-supplied character/food PNGs linked unchanged, including cola and popcorn. Table expanded to 1250px maximum with screen-height-scaled rows and larger text. Prior missing-table-image note is resolved.

@@ -56,35 +56,35 @@ var mcq_tick_data = {
                 {
                     "text"          : "",
                     "tick_box"      : "no", 
-                    "image"         : "../images/pages/activities/5-img-1.png",
+                    "image"         : "../images/pages/activities/table/cat01.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
                     "text"          : "",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/5-img-2.png",
+                    "image"         : "../images/pages/activities/table/cat02.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
                     "text"          : "",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/5-img-3.png",
+                    "image"         : "../images/pages/activities/table/cat03.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
 				},
 				{
                     "text"          : "",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/5-img-4.png",
+                    "image"         : "../images/pages/activities/table/cat04.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
                     "text"          : "",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/5-img-5.png",
+                    "image"         : "../images/pages/activities/table/cat05.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
@@ -92,7 +92,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "bananas",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/2-img-3.png",
+                    "image"         : "../images/pages/activities/table/banana.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },  
@@ -135,7 +135,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "sandwiches",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/8-img-9.png",
+                    "image"         : "../images/pages/activities/table/sandwiches.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
@@ -178,7 +178,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "burgers",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/8-img-11.png",
+                    "image"         : "../images/pages/activities/table/burgers.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 }, 
@@ -221,7 +221,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "apples",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/8-img-12.png",
+                    "image"         : "../images/pages/activities/table/apples.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 }, 
@@ -264,7 +264,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "pizza",
                     "tick_box"      : "no",
-                    "image"         : "../images/pages/activities/2-img-2.png",
+                    "image"         : "../images/pages/activities/table/pizza.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 }, 
@@ -307,7 +307,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "fizzy drinks",
                     "tick_box"      : "no",
-                    "image"         : "",
+                    "image"         : "../images/pages/activities/table/cola.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 }, 
@@ -350,7 +350,7 @@ var mcq_tick_data = {
                 {
                     "text"          : "popcorn",
                     "tick_box"      : "no",
-                    "image"         : "",
+                    "image"         : "../images/pages/activities/table/popcorn.png",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 }, 
