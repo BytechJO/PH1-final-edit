@@ -1,0 +1,1 @@
+var stereo_data={exist:false,bgColor_rgb:"rgb(53,130,180)",audio:"",type:"text",playListData:[]}; var fillin_data={layout:1,numinrow:[[1]],questions:[],picture:"../images/pages/activities/sbp18/P18.svg"};

@@ -141,6 +141,7 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
+      {file:'SB_G1_U2_P18_3.html',type:'fillin',build:'yes',activityCtrls:'no',layout:1,visited:0,score:0},
       {
          'file'               : 'SB_G1_U2_P19_1.html',
          'type'               : 'mcq',
