@@ -10,3 +10,7 @@ Added supplied P18.svg unchanged and a new colouring activity after page 18 writ
 ## Workbook page 15: Colour the correct answer
 Added four supplied room illustrations and coloured Yes/No speech-bubble selection before Look and write. Correct answers: No, No, Yes, Yes. Verified all images, answer selection colour, correct/incorrect feedback, reset and navigation.
 
+
+## Student Book 42 / Workbook 28 illustrations
+Linked all seven supplied images to existing adjective/noun exercises. Adjusted responsive layout to show all sentences and pictures at 1280x720. Corrected dad to noun in Workbook answer key. Verified all images loaded, 4/4 and 3/3 correct feedback, reset, and rejection of wrong marking.
+

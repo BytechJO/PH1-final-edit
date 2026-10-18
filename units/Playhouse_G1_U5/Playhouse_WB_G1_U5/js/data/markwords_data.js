@@ -24,10 +24,10 @@ var markwords_data = {
   "questions": [
     {
       "number": 1,
-      "image": "../images/pages/activities/dad_son.png",
+      "image": "../images/pages/activities/wbp28/img01.png",
       "words": [
         { "text": "My",   "tag": "none" },
-        { "text": "dad",  "tag": "none" },
+        { "text": "dad",  "tag": "noun" },
         { "text": "is",   "tag": "none" },
         { "text": "a",    "tag": "none" },
         { "text": "tall", "tag": "adjective" },
@@ -36,7 +36,7 @@ var markwords_data = {
     },
     {
       "number": 2,
-      "image": "../images/pages/activities/bug.png",
+      "image": "../images/pages/activities/wbp28/img02.png",
       "words": [
         { "text": "It",   "tag": "none" },
         { "text": "is",   "tag": "none" },
@@ -47,7 +47,7 @@ var markwords_data = {
     },
     {
       "number": 3,
-      "image": "../images/pages/activities/car.png",
+      "image": "../images/pages/activities/wbp28/img03.png",
       "words": [
         { "text": "We",   "tag": "none" },
         { "text": "have", "tag": "none" },

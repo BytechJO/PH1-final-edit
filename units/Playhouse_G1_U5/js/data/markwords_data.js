@@ -26,7 +26,7 @@ var markwords_data = {
   "questions": [
     {
       "number": 1,
-      "image": "",
+      "image": "../images/pages/activities/sbp42/img01.png",
       "words": [
         { "text": "She",   "tag": "none" },
         { "text": "has",   "tag": "none" },
@@ -37,7 +37,7 @@ var markwords_data = {
     },
     {
       "number": 2,
-      "image": "",
+      "image": "../images/pages/activities/sbp42/img02.png",
       "words": [
         { "text": "It",  "tag": "none" },
         { "text": "is",  "tag": "none" },
@@ -48,7 +48,7 @@ var markwords_data = {
     },
     {
       "number": 3,
-      "image": "",
+      "image": "../images/pages/activities/sbp42/img03.png",
       "words": [
         { "text": "It",   "tag": "none" },
         { "text": "is",   "tag": "none" },
@@ -59,7 +59,7 @@ var markwords_data = {
     },
     {
       "number": 4,
-      "image": "",
+      "image": "../images/pages/activities/sbp42/img04.png",
       "words": [
         { "text": "He",   "tag": "none" },
         { "text": "is",   "tag": "none" },
