@@ -91,3 +91,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 
 - WB74 follow-up: supplied Word Power heading added above question; picture/text resized to fit. Visually checked at 1280x720.
 
+
+## Student Book p53
+- Added supplied dancing-children image unchanged and the four-line can-can reading text at end of Unit 6 review.
+- Free bounded colouring with six colours, Undo/Clear/reset; no prescribed colour grading.
+- Browser verified both figures' clothes, undo/clear and previous-page navigation.
+
