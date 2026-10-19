@@ -162,3 +162,20 @@
         width: 200px;
     } */
 }
+
+/* Page 92: independent original illustrations with bounded colouring. */
+.sb92-colouring{width:410px;flex-shrink:0;margin-left:20px}
+.colour-palette{display:flex;gap:4px;flex-wrap:wrap;justify-content:center}
+.sb92-colouring button{border:1px solid #05afe0;border-radius:7px;background:white;color:#333;font:15px Arcon,sans-serif;padding:3px 7px}
+.sb92-colouring button[aria-pressed="true"]{background:#cdf3ff;outline:2px solid #05afe0}
+.sb92-colouring button:disabled{opacity:.45}
+.colour-pictures{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.colour-card{text-align:center}
+.colour-card canvas{display:block;width:100%;height:135px;object-fit:contain;touch-action:none;cursor:crosshair}
+.colour-card>div{display:flex;justify-content:center;gap:4px}
+.colour-status{font-size:14px}
+.group_elm{margin:12px auto}
+.ques{flex:1;min-width:0}
+.fill_in .que{width:100%;font-size:22px;height:auto;min-height:65px}
+.fillin_set input{min-width:100px;width:135px;flex:0 1 135px;margin-right:7px}
+@media(max-width:900px){.group_elm{flex-wrap:wrap!important}.sb92-colouring{margin:10px auto;width:min(100%,410px)}.ques{flex-basis:100%}}

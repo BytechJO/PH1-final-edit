@@ -109,3 +109,8 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - P80 can/card red, city green. P94 cup/car blue, city/cereal green; words checked case-insensitively.
 - Browser verified correct results, wrong word/colour rejection, reset and p80 next navigation.
 
+
+## Student Book p92 — 2026-10-19
+- Added supplied SBP92 SVG originals to the existing Write and colour exercise. Four independent bounded region-colouring canvases, palette, Undo/Clear, and reset. Existing sentence building and audio retained.
+- Verified four correct writing answers and colouring in browser.
+- p93 still needs two original illustrations: architect at drafting table and woman at computer, beside Read and choose. Existing story artwork is not requested.
