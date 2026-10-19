@@ -71,3 +71,8 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - P102: goat/game red, gentle green. P103: kangaroo yellow, tiger orange, monkey brown.
 - Reused silhouette-limited colouring; verified all-correct checks, reset/empty feedback and full-page layout in browser.
 
+
+## Workbook p68
+- Added supplied goat artwork and three colouring items garage/gym/green at the end of Unit 13 workbook.
+- User requested garage accept blue OR green; gym blue and green green. Verified both accepted garage colours, full correct result, reset and empty result.
+
