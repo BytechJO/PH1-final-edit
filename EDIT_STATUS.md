@@ -88,3 +88,6 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Added p74 family picture and all nine book instructions after clothing vocabulary. Region colouring with six colours, Undo, Clear and reset (free colouring, no automatic colour grading).
 - Browser checked clothing boundaries, undo/clear and next-page navigation.
 
+
+- WB74 follow-up: supplied Word Power heading added above question; picture/text resized to fit. Visually checked at 1280x720.
+
