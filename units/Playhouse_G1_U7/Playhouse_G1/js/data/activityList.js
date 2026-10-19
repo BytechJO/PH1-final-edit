@@ -83,7 +83,7 @@ var _activityData = {
       },
       {
       "file"               : "readcolour2.html",
-      'type'               : 'readcolour',
+      'type'               : 'fillin',
       'subtype'            : '',
       'build'              : 'yes', // yes (or) no   
       'activityCtrls'      : 'yes',

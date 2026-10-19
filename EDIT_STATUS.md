@@ -97,3 +97,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Free bounded colouring with six colours, Undo/Clear/reset; no prescribed colour grading.
 - Browser verified both figures' clothes, undo/clear and previous-page navigation.
 
+
+## Workbook p37
+- Updated existing readcolour2.html with supplied cake and book paragraph, keeping its place in navigation.
+- Bounded fills, Undo/Clear/reset and seven-candle colour check (yellow/blue/yellow/green/yellow/green/red).
+- Browser verified 7/7, Undo to 6/7, reset to 0/7 and layout.
+
