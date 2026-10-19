@@ -41,3 +41,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Keys: car/crown/cat blue, cereal/city green, bicycle red. Colour stays inside car silhouette; check/reset included.
 - Browser tested 6/6 correct, 5/6 after wrong colour, reset and previous/next links; improved mask threshold for faint source outlines.
 
+
+## Workbook p58 question 2 (2026-10-19)
+- Added supplied truck/crab pictures unchanged and tick-colour-write activity before Sentence Building.
+- Truck/blue and crab/red; accepts It is or Its contraction with punctuation normalization. Full reset included.
+- Browser checked correct and incorrect responses, colouring and cleared inputs/selections.
+

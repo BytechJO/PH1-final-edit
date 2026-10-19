@@ -85,6 +85,7 @@ var _activityData = {
          "score"              : 0
       },
       //tick - fillin - colour
+      {file:'WB_G1_U11_P58_2.html',type:'fillin',subtype:'',build:'yes',activityCtrls:'yes',layout:1,visited:0,score:0},
       {
          'file'               : 'multiple_word.html',
          'type'               : 'mcq',
