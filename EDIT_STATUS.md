@@ -59,3 +59,6 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Preserved chef/restaurant example; businessman/office, doctor/hospital and sales assistant/clothes shop answers.
 - Browser verified incorrect feedback, all-correct feedback, reset preserving example and next-page navigation.
 
+
+- WB59 follow-up: supplied Word Power heading, book-style columns with blue captions below images, answer boxes beside numbers and matching paths through works in. Verified correct answers and reset at 1280x720.
+
