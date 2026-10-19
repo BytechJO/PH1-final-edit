@@ -96,7 +96,7 @@ var _activityData = {
         'layout'             : 3,
         'visited'            : 0,
       },
-      //Colour
+      {file:"SB_G1_U13_P102_2.html",type:"fillin",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
       {
          "file"               : "fillin_text_3.html",
          'type'               : 'fillin',
@@ -116,7 +116,7 @@ var _activityData = {
          'layout'             : 3,
          'visited'            : 0,
       },
-      //Colour
+      {file:"SB_G1_U13_P103_2.html",type:"fillin",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
 
    ]
 }  

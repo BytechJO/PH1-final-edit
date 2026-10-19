@@ -65,3 +65,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 
 - WB59: adopted standard blue matching nodes and direct grey lines, separate answer-letter boxes adjacent to numbers. Verified b/d/a/c matches and reset preserving b.
 
+
+## Student Book pp102-103
+- Added supplied six images unchanged in two colouring slides in Unit 13 sequence.
+- P102: goat/game red, gentle green. P103: kangaroo yellow, tiger orange, monkey brown.
+- Reused silhouette-limited colouring; verified all-correct checks, reset/empty feedback and full-page layout in browser.
+
