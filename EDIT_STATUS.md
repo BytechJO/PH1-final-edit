@@ -114,3 +114,11 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Added supplied SBP92 SVG originals to the existing Write and colour exercise. Four independent bounded region-colouring canvases, palette, Undo/Clear, and reset. Existing sentence building and audio retained.
 - Verified four correct writing answers and colouring in browser.
 - p93 still needs two original illustrations: architect at drafting table and woman at computer, beside Read and choose. Existing story artwork is not requested.
+
+## Student Book pp75, 93, 107, 119 — 2026-10-19
+- Added original supplied illustrations for all four pages.
+- p75 basket poem: drawing pen, palette, bounded white-region colour fill, Undo/Clear/reset.
+- p107 rainy/sunny: two independent drawing and colouring canvases, existing instruction audio, placed after weather writing.
+- p119: child drawing canvas with all three clothing riddles; pen colours, sizes, Undo/Clear/reset.
+- p93: paired architect and computer pictures beside the existing True/False questions; existing answers/audio preserved. This closes the two-image requirement noted above.
+- Browser checks: pen strokes on all three drawing pages, bounded basket fill, Undo/reset, p107 audio playback, p93 four correct answers, layout and navigation links. Open drawing tasks are not automatically graded.

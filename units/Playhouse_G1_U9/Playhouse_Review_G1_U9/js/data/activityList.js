@@ -98,7 +98,7 @@ var _activityData = {
       //    'score'              : 0,
       // },
 
-      
+
       // {
       //    "file"               : "fill_in_text_under_sentences.html",
       //    'type'               : 'fillin',
@@ -119,6 +119,8 @@ var _activityData = {
       //    'visited'            : 0,
       //    'score'              : 0,
       // },
-   ]
+
+      {'file':'SB_P75_draw.html','type':'fillin','subtype':'','build':'yes','activityCtrls':'yes','layout':2,'visited':0,'score':0},
+]
 }
 

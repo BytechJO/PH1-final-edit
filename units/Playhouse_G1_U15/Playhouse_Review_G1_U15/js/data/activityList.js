@@ -117,8 +117,8 @@ var _activityData = {
       //    'score'              : 0,
       // },
 
-      
-      
+
+
       // {
       //    "file"               : "fillin_table.html",
       //    'type'               : 'fillin',
@@ -129,6 +129,8 @@ var _activityData = {
       //    'visited'            : 0,
       //    'score'              : 0,
       // },
-   ]
+
+      {'file':'SB_P119_draw.html','type':'fillin','subtype':'','build':'yes','activityCtrls':'yes','layout':2,'visited':0,'score':0},
+]
 }
 

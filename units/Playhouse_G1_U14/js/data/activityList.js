@@ -69,7 +69,9 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
-      //Draw & Colour.
+
+      {'file':'SB_P107_draw.html','type':'fillin','subtype':'','build':'yes','activityCtrls':'yes','layout':2,'visited':0,'score':0},
+//Draw & Colour.
       {
          'file'               : 'slide_11.html',
          'type'               : 'standAlone',
