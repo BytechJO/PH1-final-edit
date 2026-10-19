@@ -96,7 +96,7 @@ var _activityData = {
          'layout'             : 3,
          'visited'            : 0,
       },
-      //colour
+      {file:"SB_G1_U10_P80_2.html",type:"fillin",subtype:"",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
       {
          'file'               : 'match_img_horizantal.html',
          'type'               : 'linedraw',            

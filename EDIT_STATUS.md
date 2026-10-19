@@ -103,3 +103,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Bounded fills, Undo/Clear/reset and seven-candle colour check (yellow/blue/yellow/green/yellow/green/red).
 - Browser verified 7/7, Undo to 6/7, reset to 0/7 and layout.
 
+
+## Student Book p80 and Review p94
+- Added supplied three car SVGs on p80 and four images with word inputs on p94.
+- P80 can/card red, city green. P94 cup/car blue, city/cereal green; words checked case-insensitively.
+- Browser verified correct results, wrong word/colour rejection, reset and p80 next navigation.
+
