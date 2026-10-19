@@ -55,7 +55,7 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
-      //Color & Write
+      {file:"WB_G1_U14_P71_2.html",type:"fillin",subtype:"",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
       {
          "file"               : "fill_number_or_letter.html",
          'type'               : 'fillin',

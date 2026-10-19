@@ -76,3 +76,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Added supplied goat artwork and three colouring items garage/gym/green at the end of Unit 13 workbook.
 - User requested garage accept blue OR green; gym blue and green green. Verified both accepted garage colours, full correct result, reset and empty result.
 
+
+## Workbook p71
+- Added supplied colour-by-number picture and weather dialogue after Look and write.
+- Five colours, bounded region fills, Undo/Clear, answer inside speech bubble, colour and sunny-sentence validation.
+- Verified all 27 numbered areas and sentence, repeated checks after edits, Undo and reset.
+
