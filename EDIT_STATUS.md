@@ -53,3 +53,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Free region colouring with six colours, Undo and Clear; no fixed colour grading.
 - Browser verified colouring all three figures, rejecting background fill, Undo/Clear and full poem rendering.
 
+
+## Workbook p59 - jobs and workplaces
+- Added supplied eight images unchanged and an interactive matching page before existing Unit 12 workbook activities.
+- Preserved chef/restaurant example; businessman/office, doctor/hospital and sales assistant/clothes shop answers.
+- Browser verified incorrect feedback, all-correct feedback, reset preserving example and next-page navigation.
+

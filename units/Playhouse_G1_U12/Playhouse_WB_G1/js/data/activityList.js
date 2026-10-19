@@ -3,6 +3,7 @@
 // (2) fillin
 var _activityData = {
    "list": [
+      {file:"WB_G1_U12_P59_1.html",type:"fillin",subtype:"",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
       //Match - with - fillin
       {
          "file"               : "fillin_text.html",
