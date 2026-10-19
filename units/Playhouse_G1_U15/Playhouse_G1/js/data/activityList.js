@@ -12,7 +12,7 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
-      //Colour
+      {file:"WB_G1_U15_P74_2.html",type:"fillin",subtype:"",build:"yes",activityCtrls:"yes",layout:1,visited:0,score:0},
       {
          'file'               : 'circle_word_in_sentence_2.html',
          'type'               : 'mcq',

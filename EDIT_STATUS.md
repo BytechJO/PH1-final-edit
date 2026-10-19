@@ -82,3 +82,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Five colours, bounded region fills, Undo/Clear, answer inside speech bubble, colour and sunny-sentence validation.
 - Verified all 27 numbered areas and sentence, repeated checks after edits, Undo and reset.
 
+
+## Workbook p74 and p71 title
+- Added supplied Grammar Practice heading to p71, preserving full activity fit.
+- Added p74 family picture and all nine book instructions after clothing vocabulary. Region colouring with six colours, Undo, Clear and reset (free colouring, no automatic colour grading).
+- Browser checked clothing boundaries, undo/clear and next-page navigation.
+
