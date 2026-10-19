@@ -62,3 +62,6 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 
 - WB59 follow-up: supplied Word Power heading, book-style columns with blue captions below images, answer boxes beside numbers and matching paths through works in. Verified correct answers and reset at 1280x720.
 
+
+- WB59: adopted standard blue matching nodes and direct grey lines, separate answer-letter boxes adjacent to numbers. Verified b/d/a/c matches and reset preserving b.
+
