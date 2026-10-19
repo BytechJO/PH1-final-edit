@@ -128,3 +128,6 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Rechecked 30 QA pages and selected answers (U1 apostrophes, U11 we question, U15 the/noun, U2 review p29), plus Read controls in all 15 introductions.
 - Fixed song renderer stray apostrophe, stale decorative image markup, p29 dialogue layout, and current-unit home links.
 - FINAL_AUDIT.txt is the authoritative reconciliation of old notes. Audio completeness, video matching and U14 image captions remain open; this is not an exhaustive audio listening or all-answer interaction certification.
+
+## SB104 seasons update — 19 October 2026
+Used supplied SBP104/img.png unchanged, added season labels and anchored 12 markers to the picture. Reference mapping: 11 windy, 12 rainy. Local layout and popup interactions checked. R07 layout issue closed; other audio/video audit items remain open.

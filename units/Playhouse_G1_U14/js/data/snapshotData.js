@@ -134,8 +134,8 @@ var Popups_data = {
     "warm",
     "cloudy",
     "autumn",
-    "rainy",
     "windy",
+    "rainy",
   ],
   points: [
     "../images/pages/page-1/intro-1.png",
@@ -176,7 +176,7 @@ var Popups_data = {
     "../audios/page_104/8_warm.mp3",
     "../audios/page_104/9_cloudy.mp3",
     "../audios/page_104/10_autumn.mp3",
-    "../audios/page_104/11_rainy.mp3",
     "../audios/page_104/12_windy.mp3",
+    "../audios/page_104/11_rainy.mp3",
   ],
 };

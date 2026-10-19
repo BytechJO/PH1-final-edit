@@ -64,3 +64,5 @@ WB68 garage: يبقى قبول الأزرق أو الأخضر وفق تعليم�
 
 حدود الاعتماد
 البيئة: المتصفح المحلي على 1280×720، يليها تحقق النشر على Vercel. ليس هذا اختبار أجهزة/متصفحات شاملًا، ولا اختبار جميع الإجابات الخاطئة والصحيحة للـ450 صفحة، ولا مراجعة سمعية كاملة. النشر Ready يؤكد اكتمال النشر فقط، وليس إغلاق بنود المحتوى أعلاه.
+
+SB104 update (19 October 2026): Supplied seasons picture installed unchanged. Season labels and 12 anchored word markers added. 11=windy, 12=rainy per reference. The SB104 text/layout item above is now closed.

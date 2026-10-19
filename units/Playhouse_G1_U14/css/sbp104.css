@@ -1,0 +1,12 @@
+body { background-image:none; }
+.seasons-stage { position:fixed; top:115px; left:50%; transform:translateX(-50%); width:min(80vw, calc((100vh - 190px) * 2416 / 1460)); aspect-ratio:2416/1460; z-index:2; }
+.seasons-art { width:100%; height:100%; display:block; }
+.season-name { position:absolute; color:#365798; font:bold italic clamp(15px,2.2vw,32px) Arial,sans-serif; -webkit-text-stroke:1px white; paint-order:stroke fill; line-height:1; }
+.seasons-stage .image-container { width:30px; transform:translate(-50%,-50%); z-index:3; }
+.seasons-stage .point { width:clamp(20px,2.3vw,32px); height:auto; animation:none; }
+.seasons-stage .contant { position:absolute; top:100%; }
+.seasons-stage .hover-image { background:white; border:2px solid #00b4e8; border-radius:8px; height:auto; min-height:36px; width:120px; font-size:20px; }
+.read_highlights_wrap { pointer-events:none; }
+.read_highlights_wrap .readHighlightsBtn { pointer-events:auto; width:65px; padding:2px; margin:0; }
+.read_highlights_wrap .popups-container { max-width:none; width:96%; gap:0; }
+@media (max-width:600px) { .read_highlights_wrap { top:75px !important; } .read_highlights_wrap .readHighlightsBtn { width:35px; } .season-name { font-size:clamp(10px,3.1vw,18px); -webkit-text-stroke:0.6px white; } .seasons-stage .point { width:18px; } }
