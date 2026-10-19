@@ -1,0 +1,1 @@
+var stereo_data=null;var fillin_data={picture:"../images/pages/activities/sbp97/jobs.png"};

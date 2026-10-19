@@ -47,3 +47,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - Truck/blue and crab/red; accepts It is or Its contraction with punctuation normalization. Full reset included.
 - Browser checked correct and incorrect responses, colouring and cleared inputs/selections.
 
+
+## Student Book p97 (2026-10-19)
+- Added supplied jobs illustration unchanged and Read and colour poem at end of Unit 12 review.
+- Free region colouring with six colours, Undo and Clear; no fixed colour grading.
+- Browser verified colouring all three figures, rejecting background fill, Undo/Clear and full poem rendering.
+
