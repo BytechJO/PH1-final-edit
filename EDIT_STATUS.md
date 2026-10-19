@@ -122,3 +122,9 @@ Linked all seven supplied images to existing adjective/noun exercises. Adjusted 
 - p119: child drawing canvas with all three clothing riddles; pen colours, sizes, Undo/Clear/reset.
 - p93: paired architect and computer pictures beside the existing True/False questions; existing answers/audio preserved. This closes the two-image requirement noted above.
 - Browser checks: pen strokes on all three drawing pages, bounded basket fill, Undo/reset, p107 audio playback, p93 four correct answers, layout and navigation links. Open drawing tasks are not automatically graded.
+
+## Final audit — 2026-10-19
+- Browser load/visible-text/image smoke checks: all 450 listed pages across 45 activity lists; no loading failures or broken navigation targets.
+- Rechecked 30 QA pages and selected answers (U1 apostrophes, U11 we question, U15 the/noun, U2 review p29), plus Read controls in all 15 introductions.
+- Fixed song renderer stray apostrophe, stale decorative image markup, p29 dialogue layout, and current-unit home links.
+- FINAL_AUDIT.txt is the authoritative reconciliation of old notes. Audio completeness, video matching and U14 image captions remain open; this is not an exhaustive audio listening or all-answer interaction certification.

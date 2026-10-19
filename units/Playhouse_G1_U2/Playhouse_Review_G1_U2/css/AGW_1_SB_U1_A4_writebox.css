@@ -154,3 +154,6 @@
     height: 42px;
   }
 }
+
+/* Final QA: keep both dialogues and their bubbles visible. */
+.writebox_questions_wrap{width:90%;flex-direction:row;flex-wrap:nowrap;gap:35px;padding:25px 0 45px}.wb_question{width:calc(50% - 18px)}.wb_bubble{width:235px;height:62px;font-size:19px}.wb_bubble-content{top:9px;line-height:1.2}.wb_input{font-size:19px;width:72px}.wb_question:nth-child(2) .wb_bubble_container:last-child{bottom:4%!important}.options{height:auto!important}.act_head_group{margin-top:10px}@media(max-width:900px){.writebox_questions_wrap{flex-direction:column;align-items:center}.wb_question{width:min(100%,500px)}}

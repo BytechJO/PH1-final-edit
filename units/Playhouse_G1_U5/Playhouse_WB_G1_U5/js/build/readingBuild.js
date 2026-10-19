@@ -61,7 +61,7 @@ function buildReadingHTML(aObj) {
                     slideHtml += "<div class='image_audio' style='top:" + conv.imgPos["top"] + " ; left:" + conv.imgPos["left"] + " ;'>";
                     slideHtml += "<div class='snap_card audioIcon mx-0 mx-md-auto' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + conv.audio + "'data-onaudioplay='color:#e43b6d'>"
                     if (conv.songText != undefined){
-                        slideHtml += "<p class='song_text'>" + conv.songText + "'</p>";
+                        slideHtml += "<p class='song_text'>" + conv.songText + "</p>";
                     } else {
                         slideHtml += "<img src='" + conv.img + "'/>";
                     }

@@ -100,7 +100,7 @@ function buildReadingHTML(aObj) {
             conv.audio +
             "'data-onaudioplay='color:#e43b6d'>";
           if (conv.songText != undefined) {
-            slideHtml += "<p class='song_text'>" + conv.songText + "'</p>";
+            slideHtml += "<p class='song_text'>" + conv.songText + "</p>";
           } else {
             slideHtml += "<img src='" + conv.img + "'/>";
           }

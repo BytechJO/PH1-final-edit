@@ -98,7 +98,7 @@ function buildHeader(aObj) {
       "<div class='homeBtn my-auto " +
       (homeVisible == "yes" ? "d-block" : "d-none") +
       "'>";
-    fStmt += "<a href='" + homeLink + "?u=" + aObj.unitno + "'>";
+    fStmt += "<a href='" + homeLink + "?u=" + ((location.pathname.match(/Playhouse_G1_U(\d+)/) || [])[1] || aObj.unitno || 1) + "'>";
     fStmt +=
       "<img src='" +
       _templatePath +
