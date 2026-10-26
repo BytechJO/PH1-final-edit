@@ -14,12 +14,16 @@ function initWbp7Paint(card,picture,palette){
     var canvas=card.querySelector('canvas'),ctx=canvas.getContext('2d',{willReadFrequently:true});
     var selected=palette[0][1],source,paint,history=[],ready=false;
     var undo=card.querySelector('.colour-undo'),clear=card.querySelector('.colour-clear');
-    function controls(){undo.disabled=!history.length;clear.disabled=!paint || !paint.data.some(function(v,i){return v!==source.data[i];});}
+    function controls(){$(".checkBtn,.resetBtn").removeClass("disabled");undo.disabled=!history.length;clear.disabled=!paint || !paint.data.some(function(v,i){return v!==source.data[i];});}
     document.querySelectorAll('[data-colour]').forEach(function(button){button.addEventListener('click',function(){selected=button.dataset.colour;document.querySelectorAll('[data-colour]').forEach(function(b){b.setAttribute('aria-pressed',String(b===button));});});});
     var img=new Image();
     img.onload=function(){ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);source=ctx.getImageData(0,0,canvas.width,canvas.height);paint=ctx.getImageData(0,0,canvas.width,canvas.height);ready=true;};
     img.onerror=function(){card.querySelector('.wbp7-status').textContent='The picture could not load. Please refresh.';};
     img.src=picture;
+    var expected=['#4db45d','#f59128','#2587df'][Array.from(document.querySelectorAll('.wbp7-card')).indexOf(card)];
+    window.g1PaintChecks=window.g1PaintChecks||[];
+    window.g1PaintChecks.push(function(){if(!ready)return false;var count=0,wrong=0,rgb=[1,3,5].map(function(n){return parseInt(expected.slice(n,n+2),16);});for(var j=0;j<paint.data.length;j+=4){if(paint.data[j]!==source.data[j]||paint.data[j+1]!==source.data[j+1]||paint.data[j+2]!==source.data[j+2]){count++;if(!rgb.every(function(v,n){return paint.data[j+n]===v;}))wrong++;}}return count>100&&wrong===0;});
+    $(document).on('click.g1PaintReset','.resetBtn',function(){clear.click();});
     canvas.addEventListener('pointerdown',function(event){
         if(!ready)return;
         var box=canvas.getBoundingClientRect(),scale=Math.min(box.width/canvas.width,box.height/canvas.height);

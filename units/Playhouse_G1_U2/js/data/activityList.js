@@ -106,7 +106,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P17_2.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -116,7 +116,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P17_3.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -135,13 +135,13 @@ var _activityData = {
          "file"               : "SB_G1_U2_P18_2.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
          'score'              : 0,
       },
-      {file:'SB_G1_U2_P18_3.html',type:'fillin',build:'yes',activityCtrls:'no',layout:1,visited:0,score:0},
+      {file:'SB_G1_U2_P18_3.html',type:'fillin',build:'yes',activityCtrls:'yes',layout:1,visited:0,score:0},
       {
          'file'               : 'SB_G1_U2_P19_1.html',
          'type'               : 'mcq',
@@ -155,7 +155,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P19_2.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -165,7 +165,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P19_3.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -175,7 +175,7 @@ var _activityData = {
       //    "file"               : "SB_G1_U2_P20_1.html",
       //    'type'               : 'fillin',
       //    'subtype'            : '',
-      //    'build'              : 'yes', // yes (or) no   
+      //    'build'              : 'yes', // yes (or) no
       //    'activityCtrls'      : 'yes',
       //    'layout'             : 2,
       //    'visited'            : 0,
@@ -194,7 +194,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P20_2.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -204,7 +204,7 @@ var _activityData = {
          "file"               : "SB_G1_U2_P20_3.html",
          'type'               : 'fillin',
          'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
+         'build'              : 'yes', // yes (or) no
          'activityCtrls'      : 'yes',
          'layout'             : 2,
          'visited'            : 0,
@@ -265,5 +265,4 @@ var _activityData = {
          'visited'            : 0,
       },
    ]
-}  
-
+}

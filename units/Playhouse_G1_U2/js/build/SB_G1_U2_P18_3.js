@@ -5,7 +5,7 @@ $('.activity_area').append('<div class="sub_footer_icon sub_footer_icon_left sub
     var canvas=document.querySelector('.wbp6-canvas'),ctx=canvas.getContext('2d',{willReadFrequently:true});
     var selected=palette[0][1],source,paint,history=[],ready=false;
     var undo=document.getElementById('colour-undo'),clear=document.getElementById('colour-clear');
-    function controls(){undo.disabled=!history.length;clear.disabled=!paint || !paint.data.some(function(v,i){return v!==source.data[i];});}
+    function controls(){$(".checkBtn,.resetBtn").removeClass("disabled");undo.disabled=!history.length;clear.disabled=!paint || !paint.data.some(function(v,i){return v!==source.data[i];});}
     document.querySelectorAll('[data-colour]').forEach(function(button){button.addEventListener('click',function(){selected=button.dataset.colour;document.querySelectorAll('[data-colour]').forEach(function(b){b.setAttribute('aria-pressed',String(b===button));});});});
     var img=new Image();
     img.onload=function(){ctx.fillStyle='#fff';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);source=ctx.getImageData(0,0,canvas.width,canvas.height);paint=ctx.getImageData(0,0,canvas.width,canvas.height);ready=true;};
@@ -34,5 +34,9 @@ $('.activity_area').append('<div class="sub_footer_icon sub_footer_icon_left sub
     });
     undo.addEventListener('click',function(){var last=history.pop();if(!last)return;last.area.forEach(function(i,n){paint.data.set(last.before[n],i*4);});ctx.putImageData(paint,0,0);controls();});
     clear.addEventListener('click',function(){if(!source)return;paint.data.set(source.data);ctx.putImageData(paint,0,0);history=[];controls();});
+var seeds=[[.06,.67,0],[.31,.69,1],[.48,.80,0],[.72,.87,1],[.88,.64,0]];
+var originalInitial=FillIn.prototype.initialSettings;FillIn.prototype.initialSettings=function(){if(originalInitial)originalInitial.call(this);$(".checkBtn,.resetBtn").removeClass("disabled");};
+FillIn.prototype.validate=function(){var ok=ready&&seeds.every(function(k){var j=(Math.floor(k[1]*canvas.height)*canvas.width+Math.floor(k[0]*canvas.width))*4,rgb=[1,3,5].map(function(n){return parseInt(palette[k[2]][1].slice(n,n+2),16);});return rgb.every(function(v,n){return paint.data[j+n]===v;});});showFeedback(true,ok);$(".resetBtn,.checkBtn").removeClass("disabled");};
+FillIn.prototype.reset=function(){clear.click();};
 setLoadedStatus(getCurrFileOrDirectory("file"));
 }
