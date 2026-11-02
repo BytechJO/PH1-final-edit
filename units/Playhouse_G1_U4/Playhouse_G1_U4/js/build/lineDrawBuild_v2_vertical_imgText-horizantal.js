@@ -59,7 +59,7 @@ function buildLineDrawBody(aObj) {
         htmlStmt += '<div class="cont_ht_sf">';
         htmlStmt += '<div class="all_cont justify-content-start justify-content-lg-center">';
         if(aObj.images != undefined && aObj.images !=""){
-            htmlStmt += '<div class="img_container"><img src="'+aObj.images[0]+'"><img src="'+aObj.images[1]+'"></div>';
+            htmlStmt += '<div class="img_container"><img class="plural-frog" src="../images/WB23frog.png" alt=""><img src="'+aObj.images[0]+'"><img src="'+aObj.images[1]+'"></div>';
         }
         var currentQue = 1;
         htmlStmt += '<div class="que options">'; 

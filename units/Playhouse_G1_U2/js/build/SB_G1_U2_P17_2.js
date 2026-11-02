@@ -50,7 +50,7 @@ function buildFillInBody(aObj) {
 			htmlStmt += '<div class="image_space"><img src="' + aObj.image + '"></div>';
 
             htmlStmt += '<div class="txt">';
-                htmlStmt += '<div class="audioIcon d-flex flex-column txt-audioIcon off d-flex contant min_w_fit_contant" data-audio="' + aObj.audio + '">';
+                htmlStmt += '<div class="audioIcon d-flex flex-column txt-audioIcon off d-flex contant min_w_fit_contant" data-audio="' + (aObj.titleAudio || aObj.audio) + '">';
                 htmlStmt += '<span class="title-song">'+aObj.title+'</span>';
                 htmlStmt += '</div>';
 

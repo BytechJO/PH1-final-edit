@@ -100,3 +100,33 @@
 .ui-intro .mainContent{display:flow-root;}
 html:has(body.ui-intro),body.ui-intro{height:100vh;overflow:clip;}
 body.ui-intro{display:flow-root;} .ui-intro header{position:fixed!important;top:0!important;left:0;right:0;}
+
+/* October 27 review: normal flow for the dialogue and a fitted song stage. */
+.g1-dialogue-fit .options,.g1-song-fit .options,.g1-weather-table .options{zoom:1!important}
+.g1-dialogue-fit .all_cont{display:flex!important;flex-direction:column;align-items:center!important}
+.g1-dialogue-fit .read_grammer{width:min(100%,1100px)}
+.g1-dialogue-fit .grammer_container{transform:none!important;width:100%;margin:auto}
+.g1-dialogue-fit .words_container{top:15%!important;font-size:clamp(20px,2vw,32px)!important}
+.g1-dialogue-fit .image_with_text{display:flex;justify-content:center;gap:24px;width:min(100%,1100px);margin:18px auto}
+.g1-dialogue-fit .main_image{display:none}
+.g1-dialogue-fit .image_audio{position:relative!important;top:auto!important;left:auto!important;transform:none!important;width:45%;min-width:0}
+.g1-dialogue-fit .image_audio img{width:100%;height:auto;max-height:330px;object-fit:contain}
+.g1-song-fit .image_with_text{position:relative;width:min(92%,calc((100dvh - 300px)*1.81));margin:0 auto}
+.g1-song-fit .main_image img{width:100%;max-width:100%;display:block}
+.g1-song-fit .image_audio{transform:none!important;left:28%!important;top:5%!important;width:44%}
+.g1-song-fit .song_text{font-size:clamp(14px,1.35vw,25px);line-height:1.22;margin:0}
+.g1-weather-table .all_cont{display:block!important;width:100%}
+.g1-weather-table .screan_elements{width:100%;max-width:900px;margin:0 auto}
+.g1-weather-table table{width:100%;margin:12px auto;table-layout:fixed}
+.g1-weather-table .Box{width:100%;min-width:0;font-size:clamp(20px,2vw,32px)}
+.g1-weather-table input{width:100%;min-width:0}
+.ui-intro>.modal{z-index:1050}
+.g1-weather-table table{max-width:900px!important;margin:12px auto!important}
+.g1-song-fit .image_with_text{width:min(92%,calc((100dvh - 360px)*1.81))}
+.g1-dialogue-fit .image_audio img{max-height:min(330px,calc(100dvh - 430px))}
+.g1-dialogue-fit .image_audio img{max-height:min(330px,calc(100dvh - 490px))}
+/* Keep intro popup launchers above scene artwork (including Unit 14). */
+.ui-intro .readHighlightsBtn.pop_launcher{z-index:30!important}
+/* The full-height popup launcher wrapper must not intercept page navigation. */
+.ui-intro .read_highlights_wrap{pointer-events:none}
+.ui-intro .read_highlights_wrap .pop_launcher{pointer-events:auto}

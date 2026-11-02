@@ -1,17 +1,20 @@
-var drawResetters=[];
+var drawResetters=[],drawChecks=[];
 function buildFillInBody(data){
 var palette=[['Black','#222222'],['Blue','#2587df'],['Red','#ef4444'],['Green','#4db45d'],['Yellow','#ffe45c'],['Brown','#965d35'],['Pink','#f6b2cc']];
 var nav='<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav"><a href=""><img src="../images/icons/back_btn.png"></a></div><div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav"><a href=""><img src="../images/icons/next_btn.png"></a></div>';
 var tools='<button type="button" data-mode="pen" aria-pressed="true">Draw</button>'+(data.colour?'<button type="button" data-mode="fill" aria-pressed="false">Colour</button>':'')+'<label>Pen size <select id="pen-size"><option value="3">Thin</option><option value="7" selected>Medium</option><option value="14">Thick</option></select></label>'+palette.map(function(c,i){return '<button type="button" data-colour="'+c[1]+'" aria-pressed="'+(i===0)+'">'+c[0]+'</button>';}).join('');
 $('.activity_area').append(nav+'<section class="draw-page options"><h2><span class="blue_text">'+data.number+'</span> '+data.title+'</h2>'+(data.audio?'<audio controls src="'+data.audio+'" aria-label="Listen to the weather"></audio>':'')+'<div class="draw-tools">'+tools+'</div><div class="draw-layout '+(data.pictures.length>1?'two-pictures':'')+'"><div class="drawing-pictures"></div>'+(data.poem?'<div class="draw-poem">'+data.poem+'</div>':'')+'</div><p class="draw-status" role="status"></p></section>');
-var selected=palette[0][1],mode='pen';
+var selected=palette[0][1],mode='pen';var status=document.querySelector('.draw-status');document.querySelector('.draw-page').insertBefore(status,document.querySelector('.draw-layout'));
+var question=document.querySelector('.draw-page h2'),track=document.querySelector('.draw-page audio');
+if(track){track.removeAttribute('controls');track.removeAttribute('autoplay');track.pause();question.setAttribute('role','button');question.tabIndex=0;question.title='Play audio';question.onclick=function(){if(track.paused){track.currentTime=0;track.play().catch(function(){});}else{track.pause();}};question.onkeydown=function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();question.click();}};}
+document.querySelectorAll('[data-colour]').forEach(function(b){b.title=b.textContent;b.setAttribute('aria-label',b.textContent);b.style.backgroundColor=b.dataset.colour;b.textContent='';});
 document.querySelectorAll('[data-colour]').forEach(function(b){b.onclick=function(){selected=b.dataset.colour;document.querySelectorAll('[data-colour]').forEach(function(v){v.setAttribute('aria-pressed',v===b);});};});
 document.querySelectorAll('[data-mode]').forEach(function(b){b.onclick=function(){mode=b.dataset.mode;document.querySelectorAll('[data-mode]').forEach(function(v){v.setAttribute('aria-pressed',v===b);});};});
 data.pictures.forEach(function(pic){
 var card=document.createElement('div');card.className='drawing-card';card.innerHTML=(pic.label?'<h3>'+pic.label+'</h3>':'')+'<canvas width="1000" height="1000" aria-label="'+pic.alt+'"></canvas><div><button class="draw-undo" disabled>Undo</button><button class="draw-clear" disabled>Clear drawing</button></div>';
-document.querySelector('.drawing-pictures').appendChild(card);
+document.querySelector('.drawing-pictures').appendChild(card);var feedback=document.createElement('p');feedback.className='drawing-feedback';feedback.setAttribute('role','status');card.insertBefore(feedback,card.querySelector('canvas'));
 var canvas=card.querySelector('canvas'),ctx=canvas.getContext('2d',{willReadFrequently:true}),source,history=[],drawing=false,last,undo=card.querySelector('.draw-undo'),clear=card.querySelector('.draw-clear');
-function controls(){undo.disabled=!history.length;clear.disabled=!history.length;$('.resetBtn').removeClass('disabled');}
+function controls(){undo.disabled=!history.length;clear.disabled=!history.length;$('.resetBtn').removeClass('disabled');card.querySelector('.drawing-feedback').textContent='';document.querySelector('.draw-status').textContent='';}
 function save(){history.push(ctx.getImageData(0,0,canvas.width,canvas.height));if(history.length>20)history.shift();}
 function point(e){var b=canvas.getBoundingClientRect(),s=Math.min(b.width/canvas.width,b.height/canvas.height);return {x:(e.clientX-b.left-(b.width-canvas.width*s)/2)/s,y:(e.clientY-b.top-(b.height-canvas.height*s)/2)/s};}
 var img=new Image();img.onload=function(){canvas.height=Math.round(canvas.width*img.naturalHeight/img.naturalWidth);ctx.fillStyle='white';ctx.fillRect(0,0,canvas.width,canvas.height);ctx.drawImage(img,0,0,canvas.width,canvas.height);source=ctx.getImageData(0,0,canvas.width,canvas.height);};img.onerror=function(){document.querySelector('.draw-status').textContent='The picture could not load. Please refresh.';};img.src=pic.src;
@@ -27,8 +30,8 @@ canvas.addEventListener('pointermove',function(e){if(!drawing)return;var p=point
 function finish(){drawing=false;}canvas.addEventListener('pointerup',finish);canvas.addEventListener('pointercancel',finish);canvas.addEventListener('lostpointercapture',finish);
 undo.onclick=function(){if(history.length)ctx.putImageData(history.pop(),0,0);controls();};
 function reset(){if(source)ctx.putImageData(source,0,0);history=[];undo.disabled=clear.disabled=true;}
-clear.onclick=reset;drawResetters.push(reset);
+clear.onclick=function(){reset();controls();};drawResetters.push(reset);drawChecks.push(function(){var changed=false;if(source){var pixels=ctx.getImageData(0,0,canvas.width,canvas.height).data;for(var n=0;n<pixels.length;n+=4){if(pixels[n]!==source.data[n]||pixels[n+1]!==source.data[n+1]||pixels[n+2]!==source.data[n+2]){changed=true;break;}}}feedback.textContent='';return changed;});
 });
 setLoadedStatus(getCurrFileOrDirectory('file'));
 }
-window.FillIn=function(){this.initialSettings=function(){initialSettingsDone(1);};this.reset=function(){drawResetters.forEach(function(f){f();});};};
+window.FillIn=function(){this.initialSettings=function(){initialSettingsDone(1);};this.reset=function(){drawResetters.forEach(function(f){f();});document.querySelectorAll('.drawing-feedback,.draw-status').forEach(function(e){e.textContent='';});$('.checkBtn').addClass('disabled');};};

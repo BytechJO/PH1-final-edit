@@ -120,3 +120,5 @@ var fillin_data = {
       },
     ]
   }
+stereo_data.playListData[0].audiourl="../audios/review_oct27/listen-and-number-full.mp3";
+[["2"],["5"],["4"],["1"],["3"]].forEach((a,i)=>fillin_data.questions[i].answer=a);

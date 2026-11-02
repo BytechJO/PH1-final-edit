@@ -85,7 +85,7 @@ FillIn.prototype = {
                     _cAns[cc] = (_case == 'yes')? _cAns[cc]: _cAns[cc].toLowerCase();  
                    _cAns[cc] = (_cAns[cc]).replace(/\s/g, '');
                    _uAns[cc] = (_uAns[cc]).replace(/\s/g, '');
-                    if(_cAns[cc] == _uAns[cc]){
+                    if(_cAns[cc] == _uAns[cc] || ((fDataObj.acceptedAnswers||[])[cc]||[]).some(function(value){return String(value).toLowerCase().replace(/\s/g,'')===_uAns[cc];})){
                         _corr++;
                         // if(_isReadOnly[cc] != 1)  {
                             // inputBoxes[cc].style.color = 'green';

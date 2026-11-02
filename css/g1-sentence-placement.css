@@ -1,0 +1,34 @@
+/* Only the relocated explanation panel; exercise styles stay unchanged. */
+[data-book-sentence-panel]{width:min(1180px,94%)!important;margin:32px auto 24px!important;clear:both;box-sizing:border-box;}
+[data-book-sentence-panel] .cont_items{position:relative!important;display:block!important;width:100%!important;height:auto!important;min-height:170px;max-height:none!important;padding:30px 14px 14px;box-sizing:border-box;border:4px solid #ffc20d;border-radius:20px;background:#f9f9da;line-height:1.4;}
+[data-book-sentence-panel] .main_title_container{position:absolute!important;top:-24px!important;left:12px!important;width:auto!important;height:auto!important;padding:4px 20px;border:3px solid #ffc20d;border-radius:30px;background:#f9f9da;}
+[data-book-sentence-panel] .main_title_text{display:flex!important;flex-direction:row!important;flex-wrap:nowrap!important;justify-content:center;white-space:nowrap;font-size:26px!important;line-height:1.3!important;font-weight:bold;}
+[data-book-sentence-panel] .main_title_text .letter{animation:none!important;}
+[data-book-sentence-panel] .main_title_text .contant{width:auto!important;min-width:0!important;}
+[data-book-sentence-panel] .main_title_text .contant:nth-child(4n+1){color:#f4ad00}[data-book-sentence-panel] .main_title_text .contant:nth-child(4n+2){color:#ec008c}[data-book-sentence-panel] .main_title_text .contant:nth-child(4n+3){color:#82bb43}[data-book-sentence-panel] .main_title_text .contant:nth-child(4n){color:#00aee9}
+[data-book-sentence-panel] .cont_items>.d-flex{align-items:center!important;justify-content:space-around!important;}
+[data-book-sentence-panel] .imgs_sides{align-items:center;gap:8px;}
+[data-book-sentence-panel] .readHighlightsBtn{height:96px!important;width:auto!important;max-width:38%;object-fit:contain;padding:4px 12px;margin:8px!important;border-radius:50%;background:#ffe477;cursor:pointer;}
+[data-book-sentence-panel] .text_img{object-fit:contain;max-width:100%;}
+[data-book-sentence-panel] .showImg1,[data-book-sentence-panel] .showImg2{display:none;height:auto!important;max-height:115px;max-width:65%;}
+[data-book-sentence-panel] .showImg0{height:95px!important;width:auto!important;max-width:100%;}
+[data-book-sentence-panel] .middle-text{text-align:center;align-content:center;font-size:20px;}
+[data-book-sentence-panel] .text{display:block;font-size:20px!important;line-height:1.35!important;text-align:center;}
+[data-book-sentence-panel] .sb-book-explanation{display:flex;align-items:center;justify-content:space-around;gap:24px;font-size:23px;}
+[data-book-sentence-panel] .sb-book-explanation p{flex:1;margin:8px;text-align:center;}
+
+[data-book-sentence-panel] .cont_items{display:flex!important;align-items:center;justify-content:space-between;gap:10px;flex-wrap:nowrap!important;}
+[data-book-sentence-panel] .cont_items>.item{display:flex;align-items:center;justify-content:center;gap:16px;flex:1;min-width:0;width:auto!important;height:auto!important;}
+[data-book-sentence-panel] .cont_items>.item:has(.readHighlightsBtn){flex:0 0 105px;}
+[data-book-sentence-panel] .item .readHighlightsBtn{max-width:100%;}
+[data-book-sentence-panel] .item>img:not(.readHighlightsBtn){max-height:130px!important;height:auto!important;width:auto!important;max-width:100%;object-fit:contain;}
+[data-book-sentence-panel] .item:has(>.text){flex:2;}
+[data-book-sentence-panel] .item .text img{max-height:100px!important;max-width:100%;width:auto;object-fit:contain;}
+[data-book-sentence-panel] .item .showImg1,[data-book-sentence-panel] .item .showImg2{max-width:100%;}
+[data-book-sentence-panel] .text_images,[data-book-sentence-panel] .text_titles{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;align-items:end;}
+[data-book-sentence-panel] .imgs_sides:last-child{justify-content:flex-end;}
+[data-book-sentence-panel] .red_text{color:red;}
+[data-book-sentence-panel] img{transform:none!important;position:static!important;}
+[data-book-sentence-panel] .text{position:static!important;}
+[data-book-sentence-panel] .mid_img,[data-book-sentence-panel] .showImg1,[data-book-sentence-panel] .showImg2{margin:0!important;}
+[data-book-sentence-panel] .mid_img{display:block;margin:4px auto!important;height:85px!important;}

@@ -1,3 +1,5 @@
+
+(function(){const p=location.pathname;if(p.endsWith('/Playhouse_G1_U1/views/slide_8.html'))document.body.classList.add('g1-dialogue-fit');if(p.endsWith('/Playhouse_G1_U1/views/slide_10.html'))document.body.classList.add('g1-song-fit');if(p.endsWith('/Playhouse_G1_U15/views/fillin_table.html'))document.body.classList.add('g1-weather-table');})();
 /* Keep the established feedback clips and make repeat checks predictable. */
 (function(){
  if(!document.body.classList.contains('ui-repair')||!window.jQuery)return;
@@ -138,3 +140,13 @@
 })();
 
 $(document).on('click.g1ResetReady','.checkBtn',function(){setTimeout(function(){$('.resetBtn').removeClass('disabled');},0);});
+
+// A transformed intro creates a stacking context. Keep Bootstrap modals at body level.
+if(document.body.classList.contains('ui-intro')){document.querySelectorAll('.mainContent .modal').forEach(m=>document.body.appendChild(m));}
+// Unit 14's season artwork lives at body level; keep its popup controls in the same layer.
+if(/Playhouse_G1_U14\/views\/playhouse_intro\.html$/.test(location.pathname)){
+ document.querySelectorAll('.mainContent .read_highlights_wrap').forEach(e=>document.body.appendChild(e));
+}
+if(document.body.classList.contains('ui-intro')){
+ document.addEventListener('keydown',function(e){if(e.key==='Escape')$('.modal.show').modal('hide');});
+}

@@ -21,6 +21,7 @@ function buildTemplatePath() {
 }
 function getCurrFileOrDirectory(aNeed, aPath) {
     var href = (aPath == undefined && aPath == null) ? document.location.href : aPath;
+    if (href != null) href = href.split(/[?#]/)[0];
     var lastPathSegment = '';
     var currFolder = '';
     var unitFolder = '';     

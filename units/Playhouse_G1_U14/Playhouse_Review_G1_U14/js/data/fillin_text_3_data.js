@@ -70,7 +70,7 @@ var fillin_data = {
     },
     {
       "singleword": false,
-      "text": "<b>2</b> &nbsp; They are your friends. [_]",
+      "text": "<b>3</b> &nbsp; They are your friends. [_]",
       "textaudios": [],
       "image": "",
       "option":"",
