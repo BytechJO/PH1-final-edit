@@ -188,7 +188,19 @@ function buildFillInBody(aObj) {
 	console.log('htmlStmt >> fillin Built');
 	$( ".activity_area" ).append( htmlStmt );	
 	
-	setLoadedStatus(getCurrFileOrDirectory('file'));
+	if (document.body.classList.contains('calendar-activity')) {
+        document.querySelectorAll('.calendar-activity .que').forEach(function (question) {
+            var input = question.querySelector('input');
+            var hint = question.querySelector('.text_End');
+            var answer = document.createElement('span');
+            answer.className = 'calendar-answer';
+            input.parentNode.insertBefore(answer, input);
+            answer.appendChild(input);
+            if (hint) answer.appendChild(hint);
+            question.querySelector('.fillin_set').appendChild(question.querySelector('.icon_wrap_holder'));
+        });
+    }
+    setLoadedStatus(getCurrFileOrDirectory('file'));
 }
 function nextChar(c) {
 	return String.fromCharCode(c.charCodeAt(0) + 1);

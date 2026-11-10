@@ -1,0 +1,24 @@
+/* Calendar exercise only: keep answers, hints and feedback with each sentence. */
+.calendar-activity .screen_elements { width: 100%; }
+.calendar-activity .group_elm { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+.calendar-activity .ques { width: 100%; padding: 0; min-width: 0; }
+.calendar-activity .q_image { width: 100%; max-width: 600px; margin: auto; }
+.calendar-activity .q_image img { display: block; width: 100%; height: auto; object-fit: contain; }
+.calendar-activity .fill_in .que { width: 100%; height: auto; min-height: 98px; }
+.calendar-activity .q_space { align-items: flex-start; }
+.calendar-activity .q_num_space { flex: 0 0 32px; }
+.calendar-activity .fillin_set { width: auto; flex: 1; align-items: flex-start; gap: 0 8px; text-align: left; }
+.calendar-activity .calendar-answer { display: inline-flex; flex-direction: column; flex: 0 0 245px; max-width: 100%; }
+.calendar-activity .fillin_set input { width: 100%; height: 36px; margin: 0; padding: 0 8px; font-size: inherit; text-align: center; }
+.calendar-activity .text_End { position: static !important; font-size: 21px; line-height: 1.3; text-align: center; }
+.calendar-activity .icon_wrap_holder { position: static !important; flex: 0 0 35px; width: 35px; margin: 0 0 0 6px; }
+.calendar-activity .icon_wrap { position: static !important; margin: 0 !important; }
+@media (max-width: 1100px) {
+  .calendar-activity .group_elm { grid-template-columns: 1fr; }
+  .calendar-activity .q_image { max-width: 520px; }
+  .calendar-activity .calendar-answer { flex-basis: 225px; }
+}
+
+.calendar-activity .screen_elements { width: 84% !important; max-width: 1580px; margin: 0 auto; }
+.calendar-activity .group_elm { grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr); }
+@media (max-width: 1100px) { .calendar-activity .group_elm { grid-template-columns: 1fr; } }
