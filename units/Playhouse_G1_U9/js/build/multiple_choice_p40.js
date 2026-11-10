@@ -111,7 +111,8 @@ function buildMcqBody(aObj) {
             for (var opt = 0; opt < tpOb.options.length; opt++) {
               var defaultAnswers_pick = tpOb.defaultAnswer_pick;
               var className = "";
-              if (defaultAnswers_pick.includes(opt)) {
+              // Answer keys and example picks both use one-based option numbers.
+              if (!defaultAnswers_pick.includes(opt + 1)) {
                 className = "default";
               } else {
                 className = "selectedDefault";

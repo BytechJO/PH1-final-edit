@@ -104,7 +104,13 @@ FillIn.prototype = {
                     _cAns[cc] = (_case == 'yes')? _cAns[cc]: _cAns[cc].toLowerCase();  
                    _cAns[cc] = (_cAns[cc]).replace(/\s/g, '');
                    _uAns[cc] = (_uAns[cc]).replace(/\s/g, '');
-                    if(_cAns[cc] == _uAns[cc]){
+                    // Alternatives are scoped to the current blank; word order stays exact.
+                    var alternatives = (fDataObj.alternateanswer || [])[cc] || [];
+                    var matchesAlternative = alternatives.some(function (answer) {
+                        var normalized = String(answer).replace(/\s/g, '');
+                        return (_case == 'yes' ? normalized : normalized.toLowerCase()) === _uAns[cc];
+                    });
+                    if(_cAns[cc] == _uAns[cc] || matchesAlternative){
                         _corr++;
                         // if(_isReadOnly[cc] != 1)  {
                             // inputBoxes[cc].style.color = 'green';

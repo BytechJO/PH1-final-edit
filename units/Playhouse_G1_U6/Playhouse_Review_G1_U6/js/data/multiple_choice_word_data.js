@@ -30,7 +30,7 @@ var mcq_data = {
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/page_63/2_Read_the_story_and_circle_all_the_possessive_nouns.mp3",  
-    "select"                : "single", // single (or) multiple
+    "select"                : "multiple", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",
     "numbering"             : "number",
@@ -75,7 +75,7 @@ var mcq_data = {
         {
             "question"              : "2",
             "image"                 : "",
-            "answer"                : [1],
+            "answer"                : [1, 5],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [
@@ -98,7 +98,7 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "teacher",
+                    "text"          : "teacher.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default

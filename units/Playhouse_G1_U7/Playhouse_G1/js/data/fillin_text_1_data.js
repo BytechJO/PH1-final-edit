@@ -63,7 +63,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["6th on July"],
+          "answer": ["on 6th July"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
           "strictorder": "yes", // yes (or) no             
@@ -79,8 +79,8 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["wednesday"],
-          "alternateanswer": [[]],
+          "answer": ["on Wednesday"],
+          "alternateanswer": [["Wednesday"]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
           "maxlength": 200,
@@ -95,7 +95,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["26th on July"],
+          "answer": ["on 26th July"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              

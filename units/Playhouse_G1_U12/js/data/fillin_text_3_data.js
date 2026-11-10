@@ -46,8 +46,8 @@ var fillin_data = {
       "option":"",
       "audio": "../audios/in.mp3",
       "audioenable": "default", // correct (or) default
-      "answer": ["A chef cooks food"],
-      "alternateanswer": [[]],
+      "answer": ["A chef cooks food."],
+      "alternateanswer": [["A chef cooks food"]],
       "strictcase": "no", // yes (or) no  
       "strictorder": "yes", // yes (or) no              
       "maxlength": 300,
@@ -61,8 +61,8 @@ var fillin_data = {
       "option":"",
       "audio": "../audios/in.mp3",
       "audioenable": "default", // correct (or) default
-      "answer": ["I like ice cream"],
-      "alternateanswer": [[]],
+      "answer": ["I like ice cream."],
+      "alternateanswer": [["I like ice cream"]],
       "strictcase": "no", // yes (or) no     
       "strictorder": "yes", // yes (or) no             
       "maxlength": 300,
@@ -76,8 +76,8 @@ var fillin_data = {
       "option":"",
       "audio": "../audios/in.mp3",
       "audioenable": "default", // correct (or) default
-      "answer": ["Yoshi can whistle"],
-      "alternateanswer": [[]],
+      "answer": ["Yoshi can whistle."],
+      "alternateanswer": [["Yoshi can whistle"]],
       "strictcase": "no", // yes (or) no     
       "strictorder": "yes", // yes (or) no             
       "maxlength": 300,

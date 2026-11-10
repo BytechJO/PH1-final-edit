@@ -44,12 +44,12 @@ var mcq_data = {
     {
       question: "",
       image: "../images/pages/activities/40-img-1.png",
-      answer: [1, 3, 5],
+      answer: [1, 2, 6],
       audio: "no",
       audioenable: "default", // correct (or) default
       numbering: "none", // alphabet (or) number (or) none
       numberstartfrom: "a",
-      defaultAnswer_pick:  [1, 3, 5],
+      defaultAnswer_pick:  [1, 2, 6],
       options: [
         {
           text: "sh",

@@ -74,7 +74,7 @@ var mcq_data = {
         {
             "question"              : "2",
             "image"                 : "",
-            "answer"                : [2],
+            "answer"                : [5],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [
@@ -113,7 +113,7 @@ var mcq_data = {
         {
             "question"              : "3",
             "image"                 : "",
-            "answer"                : [2],
+            "answer"                : [5],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [
@@ -152,7 +152,7 @@ var mcq_data = {
         {
             "question"              : "4",
             "image"                 : "",
-            "answer"                : [2],
+            "answer"                : [4],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [
